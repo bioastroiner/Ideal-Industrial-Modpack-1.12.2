@@ -1,0 +1,235 @@
+{
+  "__comments": [
+    "WARNING: All changes should be made to the file with the name Custom",
+    "in the title. Changes made to the Generated file will be overwritten.",
+    "",
+    "This file defines ore compatibility.",
+    "",
+    "Slag content will be generated for each oredict entry.",
+    "",
+    "The first valid key in each langKey list will be chosen; reorder keys",
+    "to change which key is selected.",
+    "",
+    "The first valid nugget in each output list will be chosen; reorder nuggets",
+    "to change which nugget is selected.",
+    "",
+    "Slag color is a hex color code without the #",
+    "",
+    "Lang keys are in the format: (domain):(key)",
+    "",
+    "Output item strings are in the format: (domain):(path):(meta)"
+  ],
+  "oredict": {
+    "oreAluminum": {
+      "slagColor": "e2e2e3",
+      "langKey": [
+        "embers:tile.ore_aluminum",
+        "galacticraftcore:tile.basic_block_core.ore_aluminum_gc",
+        "galacticraftplanets:tile.asteroids_block.ore_aluminum_asteroids",
+        "galacticraftplanets:tile.venus.venus_ore_aluminum",
+        "immersiveengineering:tile.immersiveengineering.ore.aluminum"
+      ],
+      "output": [
+        "embers:nugget_aluminum:0",
+        "immersiveengineering:metal:21"
+      ]
+    },
+    "oreCobalt": {
+      "slagColor": "1c5bc1",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block"
+      ],
+      "output": [
+        "gregtech:meta_item_1:9017"
+      ]
+    },
+    "oreCopper": {
+      "slagColor": "ffaa1c",
+      "langKey": [
+        "embers:tile.ore_copper",
+        "forestry:tile.for.resources.copper",
+        "galacticraftcore:tile.basic_block_core.ore_copper_gc",
+        "galacticraftcore:tile.basic_block_moon.coppermoon",
+        "galacticraftplanets:tile.mars.coppermars",
+        "galacticraftplanets:tile.venus.venus_ore_copper",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "immersiveengineering:tile.immersiveengineering.ore.copper",
+        "projectred-exploration:tile.projectred.exploration.ore|3"
+      ],
+      "output": [
+        "embers:nugget_copper:0",
+        "gregtech:meta_item_1:9018",
+        "immersiveengineering:metal:20"
+      ]
+    },
+    "oreGold": {
+      "slagColor": "fcee4b",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "minecraft:tile.oreGold"
+      ],
+      "output": [
+        "minecraft:gold_nugget:0"
+      ]
+    },
+    "oreIridium": {
+      "slagColor": "d5d4e7",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block"
+      ],
+      "output": [
+        "gregtech:meta_item_1:9032"
+      ]
+    },
+    "oreIron": {
+      "slagColor": "d8af93",
+      "langKey": [
+        "galacticraftplanets:tile.asteroids_block.ore_iron_asteroids",
+        "galacticraftplanets:tile.mars.ironmars",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "minecraft:tile.oreIron"
+      ],
+      "output": [
+        "immersiveengineering:metal:29",
+        "minecraft:iron_nugget:0"
+      ]
+    },
+    "oreLead": {
+      "slagColor": "95afee",
+      "langKey": [
+        "embers:tile.ore_lead",
+        "galacticraftplanets:tile.venus.venus_ore_galena",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "immersiveengineering:tile.immersiveengineering.ore.lead"
+      ],
+      "output": [
+        "embers:nugget_lead:0",
+        "gregtech:meta_item_1:9035",
+        "immersiveengineering:metal:22"
+      ]
+    },
+    "oreNickel": {
+      "slagColor": "e4e5d8",
+      "langKey": [
+        "embers:tile.ore_nickel",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "immersiveengineering:tile.immersiveengineering.ore.nickel"
+      ],
+      "output": [
+        "embers:nugget_nickel:0",
+        "gregtech:meta_item_1:9044",
+        "immersiveengineering:metal:24"
+      ]
+    },
+    "oreOsmium": {
+      "slagColor": "9babc4",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block"
+      ],
+      "output": [
+        "gregtech:meta_item_1:9047"
+      ]
+    },
+    "orePlatinum": {
+      "slagColor": "55f3ff",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block"
+      ],
+      "output": [
+        "gregtech:meta_item_1:9051"
+      ]
+    },
+    "oreSilver": {
+      "slagColor": "e8f6fd",
+      "langKey": [
+        "embers:tile.ore_silver",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "iceandfire:tile.iceandfire.silverOre",
+        "immersiveengineering:tile.immersiveengineering.ore.silver",
+        "projectred-exploration:tile.projectred.exploration.ore|5"
+      ],
+      "output": [
+        "embers:nugget_silver:0",
+        "gregtech:meta_item_1:9062",
+        "iceandfire:silver_nugget:0",
+        "immersiveengineering:metal:23"
+      ]
+    },
+    "oreTin": {
+      "slagColor": "c3e9ff",
+      "langKey": [
+        "embers:tile.ore_tin",
+        "forestry:tile.for.resources.tin",
+        "galacticraftcore:tile.basic_block_core.ore_tin_gc",
+        "galacticraftcore:tile.basic_block_moon.tinmoon",
+        "galacticraftplanets:tile.mars.tinmars",
+        "galacticraftplanets:tile.venus.venus_ore_tin",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "projectred-exploration:tile.projectred.exploration.ore|4"
+      ],
+      "output": [
+        "embers:nugget_tin:0",
+        "gregtech:meta_item_1:9071"
+      ]
+    },
+    "oreUranium": {
+      "slagColor": "5c734b",
+      "langKey": [
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "gregtech:tile.ore_block",
+        "immersiveengineering:tile.immersiveengineering.ore.uranium"
+      ],
+      "output": [
+        "gregtech:meta_item_1:9075",
+        "immersiveengineering:metal:25"
+      ]
+    }
+  }
+}
