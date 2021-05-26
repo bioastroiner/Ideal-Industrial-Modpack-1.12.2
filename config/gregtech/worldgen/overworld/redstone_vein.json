@@ -15,7 +15,7 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 60,
+          "weight": 55,
           "value": "ore:redstone"
         },
         {
@@ -29,6 +29,10 @@
         {
           "weight": 5,
           "value": "ore:chromite"
+        },
+		{
+          "weight": 5,
+          "value": "block:astralsorcery:blockcustomore"
         }
       ]
     }

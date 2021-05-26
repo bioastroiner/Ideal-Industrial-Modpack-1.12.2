@@ -1,0 +1,7 @@
+{
+	title: "{tfg.quests.mv.era.title}",
+	icon: "enderio:item_material 1 12",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square"
+}

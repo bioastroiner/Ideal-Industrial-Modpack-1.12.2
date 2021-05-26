@@ -1,0 +1,16 @@
+{
+	x: -4.5d,
+	y: -4.0d,
+	description: "{tfg.quests.steam.2lvltank.subtitle}",
+	dependencies: [
+		"c9452585"
+	],
+	tasks: [{
+		uid: "fc8006d5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 812"
+		}],
+		ignore_nbt: 1b
+	}]
+}

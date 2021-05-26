@@ -1,0 +1,18 @@
+{
+	title: "{tfg.quests.steam.blueplusred.title}",
+	x: 1.0d,
+	y: -9.0d,
+	description: "{tfg.quests.steam.blueplusred.subtitle}",
+	dependencies: [
+		"402d0689",
+		"01403590"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "e34dbc3f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12197"
+		}]
+	}]
+}

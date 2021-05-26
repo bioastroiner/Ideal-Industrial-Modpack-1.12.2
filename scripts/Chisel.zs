@@ -1,3 +1,5 @@
+//Удаление групп
+mods.chisel.Carving.removeGroup("marble"); 
 //Удаление рецептов
 recipes.remove(<chisel:chisel_iron>);
 recipes.remove(<chisel:chisel_diamond>);

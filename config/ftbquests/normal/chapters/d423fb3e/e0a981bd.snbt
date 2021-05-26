@@ -1,0 +1,15 @@
+{
+	x: -5.0d,
+	y: -2.5d,
+	description: "{tfg.quests.steam.bronzepump.subtitle}",
+	dependencies: [
+		"5347bf68"
+	],
+	tasks: [{
+		uid: "5db51c0e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2232"
+		}]
+	}]
+}

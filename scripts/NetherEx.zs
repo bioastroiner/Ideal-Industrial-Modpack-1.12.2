@@ -1,0 +1,19 @@
+//Удаление рецептов
+mods.jei.JEI.removeAndHide(<netherex:blazed_amedian_axe>);
+mods.jei.JEI.removeAndHide(<netherex:withered_amedian_pickaxe>);
+mods.jei.JEI.removeAndHide(<netherex:withered_amedian_shovel>);
+mods.jei.JEI.removeAndHide(<netherex:withered_amedian_axe>);
+mods.jei.JEI.removeAndHide(<netherex:withered_amedian_hoe>);
+mods.jei.JEI.removeAndHide(<netherex:withered_amedian_hammer>);
+mods.jei.JEI.removeAndHide(<netherex:blazed_amedian_sword>);
+mods.jei.JEI.removeAndHide(<netherex:blazed_amedian_pickaxe>);
+mods.jei.JEI.removeAndHide(<netherex:blazed_amedian_shovel>);
+mods.jei.JEI.removeAndHide(<netherex:withered_amedian_sword>);
+mods.jei.JEI.removeAndHide(<netherex:blazed_amedian_hoe>);
+mods.jei.JEI.removeAndHide(<netherex:blazed_amedian_hammer>);
+mods.jei.JEI.removeAndHide(<netherex:frosted_amedian_sword>);
+mods.jei.JEI.removeAndHide(<netherex:frosted_amedian_pickaxe>);
+mods.jei.JEI.removeAndHide(<netherex:frosted_amedian_shovel>);
+mods.jei.JEI.removeAndHide(<netherex:frosted_amedian_axe>);
+mods.jei.JEI.removeAndHide(<netherex:frosted_amedian_hoe>);
+mods.jei.JEI.removeAndHide(<netherex:frosted_amedian_hammer>);

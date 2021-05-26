@@ -1,0 +1,32 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	shape: "circle",
+	description: "{tfg.quests.steam.bronzedust.subtitle}",
+	dependencies: [
+		"8fdd423e"
+	],
+	tasks: [{
+		uid: "808816ff",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2095"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7a6f612f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2018"
+		}],
+		count: 3L
+	},
+	{
+		uid: "41fd7247",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2071"
+		}]
+	}]
+}
