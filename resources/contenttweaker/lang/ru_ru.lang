@@ -1,355 +1,26 @@
 #Content Tweaker#
 
-tile.contenttweaker.aquamarine_andesite_sand.name=Аквамариновый андезитный песок
-
-tile.contenttweaker.furnaceblock.name=Печной блок
-
-item.contenttweaker.glassmix.name=Стеклянная смесь
-
-item.contenttweaker.copper_hammer.name=Медное оголовье молота
-
-item.contenttweaker.part_plate_basic.name=Базовая Пластина
-item.contenttweaker.part_plate_advanced.name=Улучшенная Пластина
-item.contenttweaker.part_plate_du.name=ДУ Пластина
-item.contenttweaker.part_plate_elite.name=Совершенная Пластина
-
-item.contenttweaker.moonturf.name=Лунный реголит (Пыль)
-item.contenttweaker.moonsoil.name=Лунный грунт (Пыль)
-item.contenttweaker.moonstone.name=Лунный камень (Пыль)
-
-item.contenttweaker.marsturf.name=Марсианский мелкодисперный реголит (Пыль)
-item.contenttweaker.marssoil.name=Марсианский реголит (Пыль)
-item.contenttweaker.marsstone.name=Марсианский камень (Пыль)
-
-item.contenttweaker.venusturf.name=Венерианский мягкий камень (Пыль)
-item.contenttweaker.venussoil.name=Венерианский твердый камень (Пыль)
-
-item.contenttweaker.mercuryturf.name=Меркурианский реголит (Пыль)
-item.contenttweaker.mercurysoil.name=Меркурианский грунт (Пыль)
-item.contenttweaker.mercurystone.name=Меркурианский камень (Пыль)
-
-item.contenttweaker.asteroidstone.name=Астероидный камень (Пыль)
-
-item.contenttweaker.phobosturf.name=Поверхность фобоса (Пыль)
-item.contenttweaker.phobossoil.name=Подповерхность фобоса (Пыль)
-item.contenttweaker.phobosstone.name=Камень фобос (Пыль)
-
-item.contenttweaker.deimosturf.name=Поверхность деймоса (Пыль)
-item.contenttweaker.deimossoil.name=Подповерхность деймоса (Пыль)
-item.contenttweaker.deimosstone.name=Камень деймоса (Пыль)
-
-item.contenttweaker.jupiterturf.name=Поверхность Юпитера (Пыль)
-item.contenttweaker.jupitersoil.name=Подповерхность Юпитера (Пыль)
-item.contenttweaker.jupiterstone.name=Камень Юпитера (Пыль)
-
-item.contenttweaker.saturnturf.name=Поверхность Сатурна (Пыль)
-item.contenttweaker.saturnsoil.name=Подповерхность Сатурна (Пыль)
-item.contenttweaker.saturnstone.name=Камень Сатурна (Пыль)
-
-item.contenttweaker.uranturf.name=Поверхность Урана (Пыль)
-item.contenttweaker.uransoil.name=Подповерхность Урана (Пыль)
-item.contenttweaker.uranstone.name=Камень Урана (Пыль)
-
-item.contenttweaker.neptuneturf.name=Поверхность Нептуна (Пыль)
-item.contenttweaker.neptunesoil.name=Подповерхность Нептуна (Пыль)
-item.contenttweaker.neptunestone.name=Камень Нептуна (Пыль)
-
-item.contenttweaker.plutoturf.name=Поверхность Плутона (Пыль)
-item.contenttweaker.plutosoil.name=Подповерхность Плутона (Пыль)
-item.contenttweaker.plutostone.name=Камень Плутона (Пыль)
-
 #Quests#
-#Translate by SpeeeDCraft + Sigil + Shimmermare
+#Translate by SpeeeDCraft
 ##################################################################################################################################
 ########################################################## Primitive Phase #######################################################
 ##################################################################################################################################
 tfg.quests.primitive.era.title=Примитив - Эра 1
 
 tfg.quests.primitive.start.title=Старт
-tfg.quests.primitive.start.subtitle=Спасибо, что выбрали нашу сборку модов, ведь в ней очень тесно завязались TerraFirmaCraft и GregTech, удачи тебе молодой инженер!
+tfg.quests.primitive.start.subtitle=Спасибо, что выбрали идеальный индустриальный модпак! Вас ждет море крутых эмоций, иногда нет, когда нет, сообщайте в мой дискорд, а впрочем о чем я, удачи молодой инженер!
 tfg.quests.primitive.start.tasks.clickMe=Тыкай сюды!
-
-tfg.quests.primitive.pebbles.title=Камушки!
-tfg.quests.primitive.pebbles.subtitle=Найди камень, ну серьезно, просто камень на земле и палки
-
-tfg.quests.primitive.diamond.title=Алма.., стоп, чтооо?
-tfg.quests.primitive.diamond.subtitle=Это и вправду алмаз, на, потрогай
 
 tfg.quests.primitive.primitiveTools.title=Примитивные инструменты
 tfg.quests.primitive.primitiveTools.subtitle=А что рукой дерево уже не копается?
 
-tfg.quests.primitive.muchNeededStraw.title=Кто эта ваша солома?
-tfg.quests.primitive.muchNeededStraw.subtitle=Используя нож, режьте траву, чтобы добыть солому
-
-tfg.quests.primitive.farmer3000.title=Фермер - 3000
-tfg.quests.primitive.farmer3000.subtitle=Посадите свое первое растение.
-
-tfg.quests.primitive.theHammer.title=Молот
-tfg.quests.primitive.theHammer.subtitle=Можно бить лица Андрюшам
-
-tfg.quests.primitive.blueClay.title=Синяя глина
-tfg.quests.primitive.blueClay.subtitle=Нужно было в мод, как в реальной жизни добавить кучу бесполезных видов глины.
-
-tfg.quests.primitive.allTheMolds.title=Все формы, которые вам нужны и нет
-
-tfg.quests.primitive.allTheMoldsButNowFired.title=Все формы, которые вам нужны, но теперь обоженные
-
-tfg.quests.primitive.jugButUnfired.title=Пещерный стакан, но не обоженный
-
-tfg.quests.primitive.jug.title=Пещерный стакан
-tfg.quests.primitive.jug.subtitle=Ломается часто.
-
-tfg.quests.primitive.vesselUnharneded.title=Банка, которая не затвердела
-
-tfg.quests.primitive.vessel.title=Банка
-tfg.quests.primitive.vessel.subtitle=Встроенное силовое поле не позволяет никаким жидкостям кроме плавленных металлов проникать внутрь.
-
-tfg.quests.primitive.fireplace.title=Костёр
-tfg.quests.primitive.fireplace.subtitle=Сделайте, костёр, ну правда, на улице ведь холодно
-tfg.quests.primitive.fireplace.tasks.wood.title=Бревно
-
-tfg.quests.primitive.meat.title=МЯЯЯЯСО!
-tfg.quests.primitive.meat.subtitle=Оно веганское. Я не вру, дай попробовать травоеду для подтверждения.
-tfg.quests.primitive.meat.tasks.meat.title=Мясо
-
-tfg.quests.primitive.rawHide.title=Сырые шкуры
-tfg.quests.primitive.rawHide.subtitle=Добыть любую шкуру
-
-tfg.quests.primitive.preparedHide.title=Приготовленная шкура
-tfg.quests.primitive.preparedHide.subtitle=Обмочите старую, обрежьте, снова обмочите и получите наконец эту шкуру
-
-tfg.quests.primitive.jute.title=Джут
-tfg.quests.primitive.jute.subtitle=Почему верёвки не из конопли? Я хочу весёлые пожары!
-
-tfg.quests.primitive.fruitsAndBerries.title=Фрукты ягоды
-tfg.quests.primitive.fruitsAndBerries.subtitle=Где моя лимонная водка? Разрабы, занимайтесь.
-
-tfg.quests.primitive.grains.title=Корм
-tfg.quests.primitive.grains.subtitle=Собрать урожай с зернового растения.
-
-tfg.quests.primitive.sugarcane.subtitle=Соберите тростника, он вам пригодится.
-
-tfg.quests.primitive.paper.subtitle=Сделайте бумагу, а затем соберите парочку вис кристаллов.
-
-tfg.quests.primitive.astralTome.subtitle=Ваш проводник по миру Astral Sorcery
-
-tfg.quests.primitive.bookshelf.title=Книжная полка
-tfg.quests.primitive.bookshelf.subtitle=Сделайте книжную полку и поставьте ее
-
-tfg.quests.primitive.salisMundus.subtitle=Сделайте салис-мундус, а потом тыкнете им на книжную полку, вы сотворите первую магию.
-
-tfg.quests.primitive.thaumonomicon=Эта книга, это ваш квест по моду Thaumcraft и его 10 аддонам.
-
-tfg.quests.primitive.tin.title=Олово
-tfg.quests.primitive.tin.subtitle=Охх, его нужно будет много, но не так много как меди. Как сломать? Сломай под ним блок :)
-
-tfg.quests.primitive.copper.title=Медь
-tfg.quests.primitive.copper.subtitle=Найти кусок медной руды на поверхности. Как сломать? Сломай под ним блок :)
-
-tfg.quests.primitive.greenpeace.title=Гринпис уже за вами выехал..
-tfg.quests.primitive.greenpeace.subtitle=Зачем так много? Чтобы сделать древесного угля, которого хватит хоть на пару крафтов, надеюсь
-tfg.quests.primitive.greenpeace.tasks.logs.title=Бревна
-
-tfg.quests.primitive.fuelNumber1.title=Топливо №1
-tfg.quests.primitive.fuelNumber1.subtitle=Я предлагаю линчевать того дебила, который сделал невозможным топить горн и доменную печку каменным углём.
-
-tfg.quests.primitive.fuelNumber2.title=Топливо №2
-tfg.quests.primitive.fuelNumber2.subtitle=Наконец-то можно не линчевать того, кто придумал сами знаете что
-
-tfg.quests.primitive.saw.title=Первая пила
-tfg.quests.primitive.saw.subtitle=Сделайте бронзовую пилу
-
-tfg.quests.primitive.planks.title=Доски, прям как...
-tfg.quests.primitive.planks.subtitle=Пилим, пилим, пилим..
-
-tfg.quests.primitive.woodchest.title=Сундук
-tfg.quests.primitive.woodchest.subtitle=Хорошо, что не голодный.
-tfg.quests.primitive.woodchest.task.chest.title=Любой сундук
-
-tfg.quests.primitive.bronzechest.subtitle=Умеет хранить в себе блочные руды
-
-tfg.quests.primitive.file.title=Первый напильник
-tfg.quests.primitive.file.subtitle=Он пока, что не нужен, но потом пригодится
-
-tfg.quests.primitive.knifegt.title=Ножики
-tfg.quests.primitive.knifegt.subtitle=земельки?
-
-tfg.quests.primitive.leather.title=Кожа
-tfg.quests.primitive.leather.subtitle=Получите кожу, крафт есть в JEI.
-
-tfg.quests.primitive.barrel.title=Бочка!
-tfg.quests.primitive.barrel.subtitle=Обезьянка воду налила, вода в бочке осталась.
-
-tfg.quests.primitive.juteropes.title=Я буду тряпка!
-tfg.quests.primitive.juteropes.subtitle=Джут с кризисом самовосприятия.
-
-tfg.quests.primitive.supports.title=Опоры!
-tfg.quests.primitive.supports.subtitle=Вы же не хотите быть погребенным заживо?
-
-tfg.quests.primitive.firstpickaxe.title=Первая металлическая кирка
-tfg.quests.primitive.firstpickaxe.subtitle=Кирка первого уровня
-
-tfg.quests.primitive.grinder.title=Ручная мельница
-tfg.quests.primitive.grinder.subtitle=Создайте ручную мельницу.
-
-tfg.quests.primitive.copperhammer.subtitle=Выглядит, как план. И почему этого нет в GregTech? Напомню, что уже сейчас вы можете перерабатывать руды, так что дерзайте, накопайте как можно больше!
-
-tfg.quests.primitive.copperanvil.title=Медная наковальня
-tfg.quests.primitive.copperanvil.subtitle=Это дороже любой бронзовой. Вы долго потели, чтобы ее получить?
-
-tfg.quests.primitive.bronzeanvil.title=Наковальня второго уровня
-tfg.quests.primitive.bronzeanvil.subtitle=Тут быть бронза.
-
-tfg.quests.primitive.ironanvil.title=Наковальня третьего уровня
-tfg.quests.primitive.ironanvil.subtitle=Почему самозакрывающейся железной девы нету? Или шипов?
-
-tfg.quests.primitive.steelanvil.title=Наковальня №4 "Стальной Орешек"
-tfg.quests.primitive.steelanvil.subtitle=В тфк наковальни падают? Я не знаю. Проверьте на самом тормозном в группе.
-
-tfg.quests.primitive.blacksteelanvil.title=Наковальня №5 "Стальной Орешек: гудроновое издание"
-
-tfg.quests.primitive.redbluesteelanvil.title=Наковальня №6 "Меня Легион"
-tfg.quests.primitive.redbluesteelanvil.subtitle=Серьёзно, какого фига их так много?
-
-tfg.quests.primitive.copperingot.title=Медный слиток
-tfg.quests.primitive.copperingot.subtitle=У тебя мало, делай еще.
-
-tfg.quests.primitive.bronzeingot.title=Бронзовый слиток?
-
-tfg.quests.primitive.weakdowsingrod.subtitle=Для поиска ваших первых руд, согласен она слабая, но что же поделаешь
-
-tfg.quests.primitive.bronzehammer.title=Больше молотков
-tfg.quests.primitive.bronzehammer.subtitle=Сделай ты уже себе нормальный молот!
-
-tfg.quests.primitive.bismuthbronzeingot.title=Слиток висмутной бронзы
-tfg.quests.primitive.bismuthbronzeingot.subtitle=Всегда по скидке.
-
-tfg.quests.primitive.bloomery.subtitle=Штука нужная при постройке доменной печи TFC.
-
-tfg.quests.primitive.ironingot.subtitle=И долго вы шли до железа? В ваниле это 10минут, а здесь уже.. хм.. 40 часов?
-
-tfg.quests.primitive.bellows.subtitle=Совет для начинающих огородников: покрывайте растения синей краской! Они растут лучше.
-
-tfg.quests.primitive.bismuthpile.title=Висмутная пыль
-tfg.quests.primitive.bismuthpile.subtitle=Полезная фиговина
-
-tfg.quests.primitive.silverpile.title=Серебрянная пыль
-tfg.quests.primitive.silverpile.subtitle=Это в 7DtD называется слитком-_-
-
-tfg.quests.primitive.goldpile.title=Золотая пыль
-tfg.quests.primitive.goldpile.subtitle=Чуть золотится крендель булочной и раздается детский плач.
-
-tfg.quests.primitive.graphitepile.title=Графитовая пыль
-tfg.quests.primitive.graphitepile.subtitle=Важная часть вещей, которые нужны для огнеупорной глины, короче копайте ДОФИГА.
-
-tfg.quests.primitive.kaolinitepile.title=Каолинитовая пыль
-tfg.quests.primitive.kaolinitepile.subtitle=Такая же важная как и графит.
-
-tfg.quests.primitive.ironpile.title=Железная пыль
-tfg.quests.primitive.ironpile.subtitle=Сказание о железном големе.
-
-tfg.quests.primitive.nickelpile.title=Никелиевая пыль
-tfg.quests.primitive.nickelpile.subtitle=Может ядерный реактор построить?
-
-tfg.quests.primitive.zincpile.title=Цинк
-tfg.quests.primitive.zincpile.subtitle=Нафига он?
-
-tfg.quests.primitive.blackbronzeingot.title=Черная бронза
-tfg.quests.primitive.blackbronzeingot.subtitle=Лучше двух остальных бронз, но блин зачем?
-
-tfg.quests.primitive.brassingot.title=Латунь
-
-tfg.quests.primitive.sterlingsilver.title=Серебро Стирлинга
-
-tfg.quests.primitive.rosegold.title=Розовое золото
-
-tfg.quests.primitive.tuyere.title=Любая фурма
-
-tfg.quests.primitive.tfcblastfurnace.title=Доменная печь!
-tfg.quests.primitive.tfcblastfurnace.subtitle=Слава стали, а так же, что ты сделал.
-
-tfg.quests.primitive.tfccrusible.title=Котёл железной ведьмы
-tfg.quests.primitive.tfccrusible.subtitle=Я хочу сериал с таким названием.
-
-tfg.quests.primitive.toughtdowsingrod.subtitle=Более крутая штука, которая ищет тебе ресурсы
-
-tfg.quests.primitive.blacksteelingot.title=Черная сталь
-tfg.quests.primitive.blacksteelingot.subtitle=Черные не одобряют.
-
-tfg.quests.primitive.redsteelingot.title=Красная сталь
-tfg.quests.primitive.redsteelingot.subtitle=Красные не одоб.. что?
-
-tfg.quests.primitive.bluesteelingot.title=Синяя сталь
-tfg.quests.primitive.bluesteelingot.subtitle=Голубые не одо.. хватит!
-
-tfg.quests.primitive.redbluesteelpickaxe.title=Любая кирка из цветных металлов
-tfg.quests.primitive.redbluesteelpickaxe.subtitle=Вскопните обсидиан и бегите в АД!
-
-tfg.quests.primitive.obsidian.title=Прожарка шашлычка!
-tfg.quests.primitive.obsidian.subtitle=Я знаю, что вы устали, осталось совсем чуть чуть. Возьмите лаву в синее ведро и вылейте под воду, получите обсидиан и КОПАЙТЕ!
-
-tfg.quests.primitive.bluesteelbucket.title=Синее ведро
-tfg.quests.primitive.bluesteelbucket.subtitle=Покрашено слезами всех, упавших в лаву с алмазами в инвентаре.
-
-tfg.quests.primitive.redsteelbucket.title=Красное ведро
-tfg.quests.primitive.redsteelbucket.subtitle=Красим кровью утопленников. За каждого козла, принесённого в жертву скидка 3%.
-
-tfg.quests.primitive.bucket.title=Я ЕСТЬ ВЕДРО!!!
-tfg.quests.primitive.bucket.subtitle=Волшебное майнкрафтовское ведро. Магия вымыла краску.
-
-tfg.quests.primitive.tochilka1.subtitle=Затачивайте свои предметы лучше и быстрей.
-
-tfg.quests.primitive.tochilka2.subtitle=Новый уровень заточки.
-
-tfg.quests.primitive.tochilka3.subtitle=Автоматизация затачивания.
-
-tfg.quests.primitive.tochilka4.subtitle=Еще более крутая затачивалка.
-
-tfg.quests.primitive.tochilka5.subtitle=Саурон гордился бы тобой!
-
-tfg.quests.primitive.steelingot.title=Стальной слиток
-tfg.quests.primitive.steelingot.subtitle=Ухх, ты, он сверкает.
-
-tfg.quests.primitive.flux.title=Флюс
-tfg.quests.primitive.flux.subtitle=Найти мел, доломит, известняк или мрамор.
-
-tfg.quests.primitive.povodok.title=Поводок.
-tfg.quests.primitive.povodok.subtitle=Kinky.
-
-tfg.quests.primitive.cheese.title=Сыр
-tfg.quests.primitive.cheese.subtitle=Теперь и на луну не надо.
-
-tfg.quests.primitive.orecheckbox.title=РУДЫ!
-tfg.quests.primitive.orecheckbox.subtitle=Теперь копайте молотом руды, снова дробите и получайте грязную пыль, ее уже кидайте в воду и она очистится, ее уже можно будет использовать для расплавки.
-
-tfg.quests.primitive.meshokmochi.title=Мячик. Для квиддича.
-tfg.quests.primitive.meshokmochi.subtitle=Из кого падают мочевые пузыри? Хороший вопрос.
-
-tfg.quests.primitive.softbucket.title=Мягкое ведро
-tfg.quests.primitive.softbucket.subtitle=Шобы пить.
-
-tfg.quests.primitive.backpack.title=Школьный рюкзак
-tfg.quests.primitive.backpack.subtitle=Хорошее переносное хранилище
-
-tfg.quests.primitive.burlap.title=Я ЕСТЬ ТРЯПКА
-tfg.quests.primitive.burlap.subtitle=Самый полезный предмет в игре. Не давай меню крафтов тебя обмануть и переводи весь джут в это.
-
-tfg.quests.primitive.harderbucket.title=Пещерный термос
-tfg.quests.primitive.harderbucket.subtitle=Шобы больше пить.
-
-tfg.quests.primitive.strings.title=Любые нитки
-tfg.quests.primitive.strings.subtitle=Где же их блин найти?
-
-tfg.quests.primitive.woolcloth.title=Я Есть Дорогая Тряпка
-tfg.quests.primitive.woolcloth.subtitle=Из вонючих овец, или из паучьей задницы. Честно говоря, я бы выбрал джут.
-
-tfg.quests.primitive.bed.title=Ложе Царское
-tfg.quests.primitive.bed.subtitle=Стив умеет спать только на поверхности из вышеупомянутых вонючих овец и паучьих жоп.
+tfg.quests.primitive.TinaAndCopperOre.title=Первая ваша руда
+tfg.quests.primitive.TinaAndCopperOre.subtitle=Предлагаю вам копнуть полезную руду, да она правда у вас под ногами.
 
 ##################################################################################################################################
 ########################################################## Steam Phase ###########################################################
 ##################################################################################################################################
-tfg.quests.steam.era.title=Пар - Эра 2
+tfg.quests.steam.era.title=Примитив+Пар - Эра 1+2
 
 tfg.quests.steam.mortar.title=Ступка
 tfg.quests.steam.mortar.subtitle=Раздробите металлы, прям как кости своих врагов в Mortal Combat
@@ -865,6 +536,10 @@ tfg.quests.space.wpaircans.subtitle=Хочешь дышать в космосе 
 
 tfg.quests.space.wpspace.subtitle=Теперь оденьте скафандр из GC или Нано/Квантовую броню из GT и отправляйтесь на встречу приключениям!
 
+##################################################################################################################################
+########################################################## DRACONIC + PROJECTE PHASE #############################################
+##################################################################################################################################
+iim.quests.dp.era.title=Круче нано-технологий - Эра 8
 
 
 

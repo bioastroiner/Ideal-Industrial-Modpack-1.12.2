@@ -1,12 +1,12 @@
 {
-	title: "Начало долгого пути",
+	title: "{tfg.quests.primitive.start.title}",
 	x: -17.0d,
 	y: -1.0d,
-	description: "Спасибо, что выбрали идеальный индустриальный модпак! Вас ждет море крутых эмоций, иногда нет, когда нет, сообщайте в мой дискорд, а впрочем о чем я, удачи молодой инженер!",
+	description: "{tfg.quests.primitive.start.subtitle}",
 	size: 3.0d,
 	tasks: [{
 		uid: "89c09765",
 		type: "checkmark",
-		title: "Start"
+		title: "{tfg.quests.primitive.start.tasks.clickMe}"
 	}]
 }

@@ -1,8 +1,8 @@
 {
-	title: "Бронза?",
+	title: "{tfg.quests.primitive.TinaAndCopperOre.title}",
 	x: -14.5d,
 	y: -3.0d,
-	description: "Накопайте немного руды, чтобы сделать себе бронзу.",
+	description: "{tfg.quests.primitive.TinaAndCopperOre.subtitle}",
 	dependencies: [
 		"c21c4d2a"
 	],

@@ -1,8 +1,8 @@
 {
-	title: "Кремниевые инструменты",
+	title: "{tfg.quests.primitive.primitiveTools.title}",
 	x: -14.5d,
 	y: -1.0d,
-	description: "Бейте гравий, чтобы получить кремний, серьезно, я думал вы знали об этом.",
+	description: "{tfg.quests.primitive.primitiveTools.subtitle}",
 	dependencies: [
 		"e24091b1"
 	],

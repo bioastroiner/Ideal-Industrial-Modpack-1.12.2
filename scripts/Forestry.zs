@@ -17,6 +17,9 @@ var gearsteel = <ore:gearSteel>;
 var glass = <ore:blockGlass>;
 
 //Удаление рецептов
+mods.jei.JEI.removeAndHide(<forestry:gear_bronze>);
+mods.jei.JEI.removeAndHide(<forestry:gear_copper>);
+mods.jei.JEI.removeAndHide(<forestry:gear_tin>);
 recipes.remove(<forestry:sturdy_machine>);
 recipes.remove(<forestry:portable_alyzer>);
 recipes.remove(<forestry:analyzer>);
