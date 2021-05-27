@@ -1,6 +1,6 @@
 {
 	title: "{tfg.quests.ev.era.title}",
-	icon: "enderio:item_material 1 73",
+	icon: "enderio:item_material 1 13",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: "rsquare"
