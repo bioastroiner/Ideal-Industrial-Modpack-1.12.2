@@ -8,9 +8,6 @@
 		uid: "d4ed71fc",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "appliedenergistics2:fluid_storage_cell_16k",
 			tag: {}
 		}],

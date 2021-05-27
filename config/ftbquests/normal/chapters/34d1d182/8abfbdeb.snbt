@@ -13,25 +13,13 @@
 			item: "warpdrive:component 1 11"
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "warpdrive:air_tank.basic",
-			Damage: 32s
+			item: "warpdrive:air_tank.basic 1 32"
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "warpdrive:air_tank.advanced",
-			Damage: 64s
+			item: "warpdrive:air_tank.advanced 1 64"
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "warpdrive:air_tank.superior",
-			Damage: 128s
+			item: "warpdrive:air_tank.superior 1 128"
 		}]
 	}]
 }

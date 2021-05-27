@@ -9,10 +9,7 @@
 		uid: "adf8e7da",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "prospectors:prospector_med"
+			item: "prospectors:prospector_med"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

@@ -1,0 +1,24 @@
+{
+	title: "Бронза?",
+	x: -14.5d,
+	y: -3.0d,
+	description: "Накопайте немного руды, чтобы сделать себе бронзу.",
+	dependencies: [
+		"c21c4d2a"
+	],
+	tasks: [{
+		uid: "12771f3a",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tin_0"
+		}]
+	},
+	{
+		uid: "7f8babc8",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_copper_0"
+		}],
+		count: 3L
+	}]
+}

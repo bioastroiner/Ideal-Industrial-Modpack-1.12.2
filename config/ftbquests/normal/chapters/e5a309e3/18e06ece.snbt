@@ -9,11 +9,7 @@
 		uid: "aafb04e7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "gregtech:meta_item_2",
-			Damage: 32212s
+			item: "gregtech:meta_item_2 1 32212"
 		}],
 		ignore_nbt: 1b
 	}]

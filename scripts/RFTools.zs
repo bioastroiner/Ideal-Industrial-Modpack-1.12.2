@@ -221,6 +221,11 @@ var certusQuartz =  <ore:gemCertusQuartz>;
 var fluixCrystal = <ore:crystalFluix>;
 
 //Отключение рецептов
+mods.jei.JEI.removeAndHide(<rftools:coalgenerator>);
+mods.jei.JEI.removeAndHide(<rftoolscontrol:graphics_card>);
+mods.jei.JEI.removeAndHide(<rftoolscontrol:network_card>);
+mods.jei.JEI.removeAndHide(<rftoolscontrol:ram_chip>);
+mods.jei.JEI.removeAndHide(<rftoolscontrol:advanced_network_card>);
 recipes.remove(tier1StorageModule);
 recipes.remove(tier2StorageModule);
 recipes.remove(tier3StorageModule);

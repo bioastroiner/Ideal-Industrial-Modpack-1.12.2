@@ -9,9 +9,6 @@
 		uid: "f86a6e4b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "appliedenergistics2:wireless_terminal",
 			tag: {}
 		}],

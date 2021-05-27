@@ -102,6 +102,3 @@ alloy_smelter.recipeBuilder().inputs(<ore:dustRawRubber> * 8, <ore:dustSulfur> *
 	
 //Малоэффективный рецепт резиновой пластины
 alloy_smelter.recipeBuilder().inputs(<ore:ingotRubber> * 2).notConsumable(<metaitem:shape.mold.plate>).outputs(<ore:plateRubber>.firstItem * 1).duration(140).EUt(8).buildAndRegister();
-
-//Мрамор из AstralSorcery
-chemical_bath.recipeBuilder().inputs(<gregtech:mineral>).fluidInputs([<liquid:water> * 1000]).outputs(<astralsorcery:blockmarble>).duration(20).EUt(2).buildAndRegister();

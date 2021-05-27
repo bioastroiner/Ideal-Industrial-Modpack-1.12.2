@@ -1,8 +1,5 @@
 {
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "forge:bucketfilled",
 		tag: {
 			FluidName: "polyphenylene_sulfide",

@@ -1,9 +1,6 @@
 {
 	title: "{tfg.quests.hv.tetratitan.title}",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "forge:bucketfilled",
 		tag: {
 			FluidName: "titanium_tetrachloride",

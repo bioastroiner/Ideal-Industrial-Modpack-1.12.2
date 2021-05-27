@@ -1,9 +1,6 @@
 {
 	title: "{tfg.quests.lv.lightfuel.title}",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "forge:bucketfilled",
 		tag: {
 			FluidName: "sulfuric_light_fuel",

@@ -1,0 +1,84 @@
+{
+	title: "Кремниевые инструменты",
+	x: -14.5d,
+	y: -1.0d,
+	description: "Бейте гравий, чтобы получить кремний, серьезно, я думал вы знали об этом.",
+	dependencies: [
+		"e24091b1"
+	],
+	tasks: [{
+		uid: "c9fd5fde",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 20s
+				}],
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "73f88ea9",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77b666ed",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "616194b7",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					MaxDurability: 80,
+					DigSpeed: 6.0f,
+					AttackDamage: 2.0f,
+					Material: "flint",
+					HarvestLevel: 1
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}]
+}

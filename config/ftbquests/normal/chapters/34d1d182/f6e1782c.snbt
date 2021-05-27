@@ -11,9 +11,6 @@
 		uid: "6ec396ea",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "extraplanets:tier1_space_suit_helmet",
 			tag: {},
 			Damage: 100s
@@ -25,9 +22,6 @@
 		uid: "74e64fed",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "extraplanets:tier1_space_suit_chest",
 			tag: {},
 			Damage: 100s
@@ -39,9 +33,6 @@
 		uid: "0f901741",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "extraplanets:tier1_space_suit_legings",
 			tag: {},
 			Damage: 100s
@@ -53,9 +44,6 @@
 		uid: "7c94cc3d",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "extraplanets:tier1_space_suit_boots",
 			tag: {},
 			Damage: 100s

@@ -1,9 +1,6 @@
 {
 	title: "{tfg.quests.mv.coaltar.title}",
 	icon: {
-		ForgeCaps: {
-			"astralsorcery:cap_item_amulet_holder": {}
-		},
 		id: "forge:bucketfilled",
 		tag: {
 			FluidName: "coal_tar",

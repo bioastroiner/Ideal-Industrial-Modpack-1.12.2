@@ -17,9 +17,6 @@
 		uid: "6991f690",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "appliedenergistics2:biometric_card",
 			tag: {}
 		}],
