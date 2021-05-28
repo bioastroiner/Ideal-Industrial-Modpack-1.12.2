@@ -178,7 +178,7 @@ FogThunderWeight: 0.5
 #######################################################################
 
 UnderWaterOre(UNKNOWN_BLOCK:1,3,1,100.0,SAND,DIRT)
-UnderWaterOre(UNKNOWN_BLOCK:9,3,1,100.0,DIRT,SAND)
+UnderWaterOre(UNKNOWN_BLOCK:3,3,1,100.0,DIRT,SAND)
 Dungeon(8,100.0,0,160)
 Ore(DIRT,32,20,50.0,0,255,STONE:0,HARD_CLAY)
 Ore(GRAVEL,32,10,50.0,0,255,STONE:0,HARD_CLAY)

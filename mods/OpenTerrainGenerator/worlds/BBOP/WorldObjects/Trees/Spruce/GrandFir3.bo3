@@ -359,7 +359,7 @@ Block(5,5,-2,LEAVES:1)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-BlockCheck(0,-1,0,GRASS,DIRT:0,DIRT:1,DIRT:2,biomesoplenty:grass:0,biomesoplenty:grass:1,biomesoplenty:grass,biomesoplenty:grass:3,biomesoplenty:grass:4,biomesoplenty:grass:5,biomesoplenty:grass:6,biomesoplenty:grass:7,UNKNOWN_BLOCK:0,UNKNOWN_BLOCK:1,UNKNOWN_BLOCK:2,UNKNOWN_BLOCK:8,UNKNOWN_BLOCK:9,UNKNOWN_BLOCK:10,biomesoplenty:dried_sand,biomesoplenty:hard_ice,biomesoplenty:white_sand,biomesoplenty:white_sandstone,biomesoplenty:mud,biomesoplenty:ash_block)
+BlockCheck(0,-1,0,GRASS,DIRT:0,DIRT:1,DIRT:2,biomesoplenty:grass:0,biomesoplenty:grass:1,biomesoplenty:grass,biomesoplenty:grass:3,biomesoplenty:grass:4,biomesoplenty:grass:5,biomesoplenty:grass:6,biomesoplenty:grass:7,UNKNOWN_BLOCK:0,UNKNOWN_BLOCK:1,UNKNOWN_BLOCK:2,UNKNOWN_BLOCK:3,UNKNOWN_BLOCK:4,biomesoplenty:dried_sand,biomesoplenty:hard_ice,biomesoplenty:white_sand,biomesoplenty:white_sandstone,biomesoplenty:mud,biomesoplenty:ash_block)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
