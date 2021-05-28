@@ -1,32 +1,107 @@
+import crafttweaker.item.IItemStack;
+
 //Удаление и скрытие предметов
-mods.jei.JEI.removeAndHide(<projectred-exploration:ruby_pickaxe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:sapphire_pickaxe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:peridot_pickaxe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:sapphire_sickle>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:peridot_sickle>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:diamond_sickle>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:athame>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:sapphire_axe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:peridot_axe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:ruby_hoe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:sapphire_hoe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:peridot_hoe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:ruby_pickaxe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:sapphire_pickaxe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:ruby_axe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:peridot_pickaxe>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:ruby_shovel>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:sapphire_shovel>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:peridot_shovel>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:ruby_sword>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:sapphire_sword>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:peridot_sword>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:golden_saw>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:ruby_saw>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:sapphire_saw>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:peridot_saw>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:wooden_sickle>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:stone_sickle>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:iron_sickle>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:golden_sickle>);
-mods.jei.JEI.removeAndHide(<projectred-exploration:ruby_sickle>);
+global ItemsToRemovePR as IItemStack[] = [
+	<projectred-exploration:ruby_pickaxe>,
+	<projectred-exploration:sapphire_pickaxe>,
+	<projectred-exploration:peridot_pickaxe>,
+	<projectred-exploration:sapphire_sickle>,
+	<projectred-exploration:peridot_sickle>,
+	<projectred-exploration:diamond_sickle>,
+	<projectred-exploration:athame>,
+	<projectred-exploration:sapphire_axe>,
+	<projectred-exploration:peridot_axe>,
+	<projectred-exploration:ruby_hoe>,
+	<projectred-exploration:sapphire_hoe>,
+	<projectred-exploration:peridot_hoe>,
+	<projectred-exploration:ruby_pickaxe>,
+	<projectred-exploration:sapphire_pickaxe>,
+	<projectred-exploration:ruby_axe>,
+	<projectred-exploration:peridot_pickaxe>,
+	<projectred-exploration:ruby_shovel>,
+	<projectred-exploration:sapphire_shovel>,
+	<projectred-exploration:peridot_shovel>,
+	<projectred-exploration:ruby_sword>,
+	<projectred-exploration:sapphire_sword>,
+	<projectred-exploration:peridot_sword>,
+	<projectred-exploration:golden_saw>,
+	<projectred-exploration:ruby_saw>,
+	<projectred-exploration:sapphire_saw>,
+	<projectred-exploration:peridot_saw>,
+	<projectred-exploration:wooden_sickle>,
+	<projectred-exploration:stone_sickle>,
+	<projectred-exploration:iron_sickle>,
+	<projectred-exploration:golden_sickle>,
+	<projectred-exploration:ruby_sickle>,
+	<projectred-exploration:stone:5>,
+	<projectred-exploration:stone:6>,
+	<projectred-exploration:stone:7>,
+	<projectred-exploration:stone:8>,
+	<projectred-exploration:stone:9>,
+	<projectred-exploration:stone:10>,
+	<projectred-exploration:stone:11>,
+	<projectred-exploration:backpack:15>,
+	<projectred-exploration:sapphire_helmet>,
+	<projectred-exploration:sapphire_chestplate>,
+	<projectred-exploration:sapphire_leggings>,
+	<projectred-exploration:sapphire_boots>,
+	<projectred-exploration:backpack>,
+	<projectred-exploration:backpack:1>,
+	<projectred-exploration:backpack:2>,
+	<projectred-exploration:backpack:3>,
+	<projectred-exploration:backpack:4>,
+	<projectred-exploration:peridot_helmet>,
+	<projectred-exploration:peridot_chestplate>,
+	<projectred-exploration:peridot_leggings>,
+	<projectred-exploration:peridot_boots>,
+	<projectred-exploration:backpack:5>,
+	<projectred-exploration:backpack:6>,
+	<projectred-exploration:backpack:7>,
+	<projectred-exploration:backpack:8>,
+	<projectred-exploration:backpack:9>,
+	<projectred-exploration:ruby_helmet>,
+	<projectred-exploration:ruby_chestplate>,
+	<projectred-exploration:ruby_leggings>,
+	<projectred-exploration:ruby_boots>,
+	<projectred-exploration:backpack:10>,
+	<projectred-exploration:backpack:11>,
+	<projectred-exploration:backpack:12>,
+	<projectred-exploration:backpack:13>,
+	<projectred-exploration:backpack:14>,
+	<projectred-core:resource_item:301>,
+	<projectred-core:resource_item:310>,
+	<projectred-core:resource_item:311>,
+	<projectred-core:resource_item:312>,
+	<projectred-core:resource_item:100>,
+	<projectred-core:resource_item:101>,
+	<projectred-core:resource_item:102>,
+	<projectred-core:resource_item:103>,
+	<projectred-core:resource_item:104>,
+	<projectred-core:resource_item:105>,
+	<projectred-core:resource_item:200>,
+	<projectred-core:resource_item:201>,
+	<projectred-core:resource_item:202>,
+	<projectred-core:resource_item:250>,
+	<projectred-core:resource_item:251>,
+	<projectred-core:resource_item:252>,
+	<projectred-expansion:charged_battery>,
+	<projectred-expansion:jetpack>,
+	<projectred-expansion:machine1>,
+	<projectred-expansion:machine1:1>,
+	<projectred-expansion:machine2>,
+	<projectred-expansion:machine2:1>,
+	<projectred-expansion:machine2:2>,
+	<projectred-expansion:machine2:3>,
+	<projectred-expansion:machine2:4>,
+	<projectred-expansion:machine2:5>,
+	<projectred-expansion:machine2:6>,
+	<projectred-expansion:machine2:7>,
+	<projectred-expansion:machine2:8>,
+	<projectred-expansion:machine2:9>,
+	<projectred-expansion:machine2:10>,
+	<projectred-expansion:machine2:11>,
+	<projectred-expansion:machine2:12>
+] as IItemStack[];
+for item in ItemsToRemovePR{
+    mods.jei.JEI.removeAndHide(item);
+}
