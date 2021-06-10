@@ -33,6 +33,7 @@ mods.jei.JEI.removeAndHide(<minecraft:golden_pickaxe>);
 mods.jei.JEI.removeAndHide(<minecraft:golden_shovel>);
 mods.jei.JEI.removeAndHide(<minecraft:golden_axe>);
 mods.jei.JEI.removeAndHide(<minecraft:golden_hoe>);
+furnace.remove(<minecraft:coal:1>);
 
 //Создание крафтов
 //Алмазная броня

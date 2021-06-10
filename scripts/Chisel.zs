@@ -25,21 +25,21 @@ for item in ItemsToRemove{
 //Создание рецептов
 //Железная стамеска
 recipes.addShaped(<chisel:chisel_iron>,
-[[null, <ore:plateIron>, null],
- [null, <ore:chisel>, null],
- [null, <ore:stickWood>, null]]);
+[[null, null, <ore:plateIron>],
+ [null, <ore:plateIron>, null],
+ [<ore:stickWood>, null, null]]);
 
 //Алмазная стамеска
 recipes.addShaped(<chisel:chisel_diamond>,
-[[null, <ore:plateDiamond>, null],
- [null, <ore:chisel>, null],
- [null, <ore:stickWood>, null]]);
+[[null, null, <ore:plateDiamond>],
+ [null, <ore:plateDiamond>, null],
+ [<ore:stickWood>, null, null]]);
 
 //Современная стамеска
 recipes.addShaped(<chisel:chisel_hitech>,
-[[null, <ore:plateBlueSteel>, null],
- [null, <chisel:chisel_diamond>, null],
- [null, <ore:stickWood>, null]]);
+[[null, null, <ore:plateBlueSteel>],
+ [null, <ore:plateBlueSteel>, null],
+ [<ore:stickWood>, null, null]]);
  
 //Стамеска каменная
 recipes.addShaped(<chiselsandbits:chisel_stone>,

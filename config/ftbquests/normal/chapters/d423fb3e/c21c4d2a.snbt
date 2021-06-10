@@ -1,6 +1,6 @@
 {
 	title: "{tfg.quests.primitive.primitiveTools.title}",
-	x: -14.5d,
+	x: -13.0d,
 	y: -1.0d,
 	description: "{tfg.quests.primitive.primitiveTools.subtitle}",
 	dependencies: [
@@ -32,6 +32,7 @@
 		type: "item",
 		items: [{
 			id: "gregtech:meta_tool",
+			Damage: 1s,
 			tag: {
 				GT.ToolStats: {
 					MaxDurability: 80,
@@ -40,8 +41,7 @@
 					Material: "flint",
 					HarvestLevel: 1
 				}
-			},
-			Damage: 1s
+			}
 		}],
 		ignore_nbt: 1b
 	},
@@ -50,6 +50,7 @@
 		type: "item",
 		items: [{
 			id: "gregtech:meta_tool",
+			Damage: 3s,
 			tag: {
 				GT.ToolStats: {
 					MaxDurability: 80,
@@ -58,8 +59,7 @@
 					Material: "flint",
 					HarvestLevel: 1
 				}
-			},
-			Damage: 3s
+			}
 		}],
 		ignore_nbt: 1b
 	},
@@ -68,6 +68,7 @@
 		type: "item",
 		items: [{
 			id: "gregtech:meta_tool",
+			Damage: 2s,
 			tag: {
 				GT.ToolStats: {
 					MaxDurability: 80,
@@ -76,8 +77,7 @@
 					Material: "flint",
 					HarvestLevel: 1
 				}
-			},
-			Damage: 2s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

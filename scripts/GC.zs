@@ -86,7 +86,8 @@ global ItemsToRemoveGCJEI as IItemStack[] = [
 	<extraplanets:canned_food:3>,
 	<galacticraftcore:food:2>,
 	<galacticraftcore:food:3>,
-	<galacticraftcore:food:6>
+	<galacticraftcore:food:6>,
+	<galacticraftcore:canister:1>
 ] as IItemStack[];
 for item in ItemsToRemoveGCJEI{
     mods.jei.JEI.removeAndHide(item);

@@ -47,6 +47,12 @@ recipes.remove(<forestry:alveary.swarmer>);
 recipes.remove(<forestry:alveary.sieve>);
 recipes.remove(<forestry:genetic_filter>);
 recipes.remove(<forestry:naturalist_helmet>);
+recipes.remove(<forestry:ingot_bronze>);
+recipes.remove(<forestry:ingot_tin>);
+recipes.remove(<forestry:ingot_copper>);
+recipes.remove(<forestry:resource_storage:1>);
+recipes.remove(<forestry:resource_storage:2>);
+recipes.remove(<forestry:resource_storage:3>);
 
 //Создание рецептов
 //Создание блоков меда Forestry через компрессор

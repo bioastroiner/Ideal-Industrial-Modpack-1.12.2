@@ -52,8 +52,8 @@
     "jungle.bird-ambience-jungle-night": 1,
     "cold.light-wind": 1,
     "beach.beach": 1,
-    "beach.seagull": 1,
-    "beach.seagull-long": 1,
+    "beach.seagull": 0,
+    "beach.seagull-long": 0,
     "ocean.ocean": 1,
     "ocean.light-wind": 1
   },

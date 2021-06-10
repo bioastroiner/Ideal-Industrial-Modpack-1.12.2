@@ -11,8 +11,8 @@
 		type: "item",
 		items: [{
 			id: "extraplanets:tier2_space_suit_helmet",
-			tag: {},
-			Damage: 100s
+			Damage: 100s,
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -22,8 +22,8 @@
 		type: "item",
 		items: [{
 			id: "extraplanets:tier2_space_suit_chest",
-			tag: {},
-			Damage: 100s
+			Damage: 100s,
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -33,8 +33,8 @@
 		type: "item",
 		items: [{
 			id: "extraplanets:tier2_space_suit_legings",
-			tag: {},
-			Damage: 100s
+			Damage: 100s,
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -44,8 +44,8 @@
 		type: "item",
 		items: [{
 			id: "extraplanets:tier2_space_suit_boots",
-			tag: {},
-			Damage: 100s
+			Damage: 100s,
+			tag: {}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
