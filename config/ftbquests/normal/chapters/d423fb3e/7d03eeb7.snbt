@@ -11,18 +11,7 @@
 		type: "item",
 		title: "{tfg.quests.steam.bronzeingot.title}",
 		items: [{
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any ingotBronze"
-				}
-			},
-			ForgeCaps: {
-				Parent: {
-					id: "ore",
-					data: "ingotBronze"
-				}
-			}
+			item: "gregtech:meta_item_1 1 10095"
 		}],
 		count: 32L
 	}]

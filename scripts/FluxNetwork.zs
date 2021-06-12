@@ -11,10 +11,10 @@ recipes.remove(<fluxnetworks:gargantuanfluxstorage>);
 recipes.remove(<fluxnetworks:herculeanfluxstorage>);
 recipes.remove(<fluxnetworks:fluxplug>);
 recipes.remove(<fluxnetworks:fluxpoint>);
+recipes.remove(<fluxnetworks:fluxconfigurator>);
 
 //Создание рецептов
 //Конфигуратор сети
-recipes.remove(<fluxnetworks:fluxconfigurator>);
 recipes.addShaped(<fluxnetworks:fluxconfigurator>,
 [[null, <ore:plateIron>, <ore:plateIron>],
  [<ore:plateIron>, <minecraft:ender_eye>, <ore:plateIron>],

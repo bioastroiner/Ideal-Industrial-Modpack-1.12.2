@@ -100,8 +100,24 @@ global ItemsToRemovePR as IItemStack[] = [
 	<projectred-expansion:machine2:9>,
 	<projectred-expansion:machine2:10>,
 	<projectred-expansion:machine2:11>,
-	<projectred-expansion:machine2:12>
+	<projectred-expansion:machine2:12>,
+	<projectred-transportation:pipe>,
+	<projectred-transportation:pipe:1>,
+	<projectred-transportation:pipe:2>,
+	<projectred-transportation:pipe:3>,
+	<projectred-transportation:pipe:4>,
+	<projectred-transportation:pipe:32>,
+	<projectred-transportation:pipe:33>,
+	<projectred-transportation:pipe:64>,
+	<projectred-transportation:pipe:65>
 ] as IItemStack[];
 for item in ItemsToRemovePR{
     mods.jei.JEI.removeAndHide(item);
 }
+
+//Iron Coil
+recipes.remove(<projectred-core:resource_item:401>);
+recipes.addShaped(<projectred-core:resource_item:401>,
+[[null, <ore:barsIron>, <ore:stickIron>],
+ [<ore:barsIron>, <ore:stickIron>, <ore:barsIron>],
+ [<ore:stickIron>, <ore:barsIron>, null]]);
