@@ -1,6 +1,6 @@
 {
-	x: 8.0d,
-	y: -4.0d,
+	x: 9.0d,
+	y: -8.0d,
 	description: "{tfg.quests.lv.cuttingmachine.subtitle}",
 	dependencies: [
 		"9b75479c"

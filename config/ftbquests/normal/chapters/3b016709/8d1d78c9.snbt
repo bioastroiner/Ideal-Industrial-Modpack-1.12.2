@@ -1,6 +1,6 @@
 {
-	x: 13.5d,
-	y: 3.5d,
+	x: 2.5d,
+	y: -6.5d,
 	description: "{tfg.quests.lv.silicone.subtitle}",
 	dependencies: [
 		"28b90e80"

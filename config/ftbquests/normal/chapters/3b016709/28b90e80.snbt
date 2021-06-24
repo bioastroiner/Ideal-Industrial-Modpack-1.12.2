@@ -1,13 +1,11 @@
 {
 	icon: "gregtech:machine 1 2534",
-	x: 12.0d,
-	y: 3.5d,
+	x: 2.5d,
+	y: -8.0d,
 	shape: "rsquare",
 	description: "{tfg.quests.lv.electrimblastfurnace.subtitle}",
 	dependencies: [
-		"19854d41",
-		"9225221c",
-		"f4698be0"
+		"19854d41"
 	],
 	hide: true,
 	tasks: [{

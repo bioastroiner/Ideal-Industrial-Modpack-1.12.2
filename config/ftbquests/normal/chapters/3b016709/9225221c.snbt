@@ -1,6 +1,6 @@
 {
-	x: 7.5d,
-	y: 0.0d,
+	x: -4.0d,
+	y: -3.5d,
 	description: "{tfg.quests.lv.fluidextractor.subtitle}",
 	dependencies: [
 		"6aeff01a",

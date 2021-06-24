@@ -4,5 +4,5 @@ minecraft:priest
 minecraft:smith
 minecraft:butcher
 minecraft:nitwit
-forestry:apiarist
 forestry:arborist
+forestry:apiarist

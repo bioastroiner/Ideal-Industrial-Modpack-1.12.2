@@ -1,11 +1,11 @@
 {
 	title: "{tfg.quests.lv.rubber.title}",
 	icon: "gregtech:meta_item_1 1 10152",
-	x: -1.0d,
+	x: -2.0d,
 	y: -0.5d,
 	shape: "rsquare",
 	dependencies: [
-		"18f9af4b"
+		"4646d01f"
 	],
 	hide: true,
 	tasks: [{
