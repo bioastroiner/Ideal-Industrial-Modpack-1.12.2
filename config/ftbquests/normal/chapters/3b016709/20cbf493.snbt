@@ -10,7 +10,7 @@
 		uid: "8f65edfc",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32579"
+			item: "gtadditions:ga_meta_item2 1 100"
 		}]
 	}]
 }

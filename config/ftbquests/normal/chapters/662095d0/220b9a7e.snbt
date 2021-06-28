@@ -10,7 +10,7 @@
 		uid: "c1c76118",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 3020"
+			item: "gregtech:machine 1 724"
 		}],
 		ignore_nbt: 1b
 	}]

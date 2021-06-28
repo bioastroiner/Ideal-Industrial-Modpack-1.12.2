@@ -32,11 +32,11 @@ draconicevolution:enchant_reaper
 projectred-expansion:electric_efficiency
 endercore:autosmelt
 endercore:xpboost
+enderio:witherarrow
+enderio:shimmer
+enderio:soulbound
 enderio:repellent
 enderio:witherweapon
-enderio:witherarrow
-enderio:soulbound
-enderio:shimmer
 gregtech:disjunction
 aquaculture:appealing
 aquaculture:magnetic

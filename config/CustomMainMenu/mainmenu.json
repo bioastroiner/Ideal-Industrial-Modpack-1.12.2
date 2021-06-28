@@ -104,17 +104,17 @@
             }
         },
 		
-		"replayviewer":
-		{
-			"text" : "replaymod.gui.replayviewer",
-			"posX" : 120,
-			"posY" : 20,
-			"width" : 80,
-			"height" : 20,
-			"alignment" : "center",
-			"texture" : "modpack:mainmenu/blankbutton.png",
-			"wrappedButton": 17890234
-		},
+		#"replayviewer":
+		#{
+		#	"text" : "replaymod.gui.replayviewer",
+		#	"posX" : 120,
+		#	"posY" : 20,
+		#	"width" : 80,
+		#	"height" : 20,
+		#	"alignment" : "center",
+		#	"texture" : "modpack:mainmenu/blankbutton.png",
+		#	"wrappedButton": 17890234
+		#},
 		
 		"Discord":
         {
@@ -166,7 +166,7 @@
 		
 		"VerClient":
         {
-            "text" : "0.7",
+            "text" : "0.8",
             "posX" : 68,
             "posY" : -20,
             "color" : -1,

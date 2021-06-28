@@ -481,11 +481,6 @@ recipes.addShaped(cellCard, [
 	[o_quartzite, o_rodBrass, o_quartzite],
 	[o_rodBrass, o_basicCircuit, o_rodBrass],
 	[o_quartzite, o_rodBrass, o_quartzite]]);
-//Лифт
-recipes.addShaped(elevator, [
-	[o_ironGear, o_basicCircuit, o_ironGear],
-	[lvMotor, machineFrame, lvMotor],
-	[o_ironGear, o_basicCircuit, o_ironGear]]);
 //Мировой контроллер
 recipes.addShaped(environmentalController, [
 	[evEmitter, evFieldGenerator, evEmitter],
@@ -959,10 +954,6 @@ recipes.addShaped(<rftools:dump_module>, [
   [<ore:cableGtSingleRedAlloy>, <ore:plateIron>, <ore:cableGtSingleRedAlloy>], 
   [null, <ore:dyeBlack>, null]]);
 recipes.remove(<rftools:elevator_button_module>);
-recipes.addShaped(<rftools:elevator_button_module>, [
-  [<ore:ButtonStone>, <ore:ButtonStone>, <ore:ButtonStone>], 
-  [<ore:cableGtSingleRedAlloy>, <ore:plateIron>, <ore:cableGtSingleRedAlloy>], 
-  [null, <ore:dyeBlack>, null]]);
 recipes.remove(<rftools:computer_module>);
 recipes.addShaped(<rftools:computer_module>, [
   [null, <ore:plateCertusQuartz>, null], 
