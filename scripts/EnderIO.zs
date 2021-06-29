@@ -75,6 +75,15 @@ recipes.addShaped(<enderio:item_liquid_conduit:2>*2,
  [<ore:pipeLargePolybenzimidazole>, <enderio:item_liquid_conduit:1>, <ore:pipeLargePolybenzimidazole>],
  [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
 
+//Conduit binder composite
+recipes.addShaped(<enderio:item_material:22>*8, 
+[[<ore:gravel>, <gregtech:meta_item_2:32013>, <ore:gravel>],
+ [<ore:sand>, <ore:gravel>, <ore:sand>],
+ [<ore:gravel>, <gregtech:meta_item_2:32013>, <ore:gravel>]]);
+ 
+//Conduit binder
+furnace.addRecipe(<enderio:item_material:4>*2, <enderio:item_material:22>);
+
 //Redstone conduit
 recipes.addShaped(<enderio:item_redstone_conduit>*2, 
 [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
