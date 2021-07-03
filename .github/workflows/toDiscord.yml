@@ -1,0 +1,20 @@
+name: Notification on push
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  sending:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Discord notification
+      uses: SpeeeDCraft/github-to-discord@main
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        DISCORD_USERNAME: IIM Release
+        DISCORD_AVATAR: https://raw.githubusercontent.com/LeGitHubDeTai/github-to-discord/main/icon.png
+        MESSAGE_TITLE: New Version - 
+        MESSAGE_DESCRIPTION: IIM Changelog
+        MESSAGE_URL: https://github.com/SpeeeDCraft/Ideal-Industrial-Modpack-1.12.2
+        MESSAGE_COLOR: 5814783
