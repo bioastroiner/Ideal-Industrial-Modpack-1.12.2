@@ -11,7 +11,6 @@
 	dependencies: [
 		"4021d3ff"
 	],
-	hide: true,
 	tasks: [{
 		uid: "efa30b62",
 		type: "fluid",

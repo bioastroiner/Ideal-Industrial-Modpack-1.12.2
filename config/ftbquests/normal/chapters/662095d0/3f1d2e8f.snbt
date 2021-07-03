@@ -5,7 +5,6 @@
 		"43847f05",
 		"e7ed2742"
 	],
-	hide: true,
 	optional: true,
 	tasks: [{
 		uid: "8a6935ab",

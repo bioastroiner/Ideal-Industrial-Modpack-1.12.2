@@ -1,0 +1,17 @@
+{
+	title: "DefaultReward",
+	loot_size: 1,
+	hide_tooltip: true,
+	rewards: [{
+		item: "minecraft:cobblestone"
+	},
+	{
+		item: "minecraft:stick"
+	},
+	{
+		item: "gregtech:meta_item_1 1 10018"
+	},
+	{
+		item: "gregtech:meta_item_1 1 19095"
+	}]
+}

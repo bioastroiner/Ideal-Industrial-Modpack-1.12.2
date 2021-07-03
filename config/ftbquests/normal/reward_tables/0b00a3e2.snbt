@@ -1,0 +1,13 @@
+{
+	title: "RandomDmitryTable",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 10018"
+	},
+	{
+		item: "gregtech:meta_item_1 1 10071"
+	},
+	{
+		item: "minecraft:iron_ingot"
+	}]
+}

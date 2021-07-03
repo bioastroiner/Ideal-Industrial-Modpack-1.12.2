@@ -8,6 +8,7 @@
 	dependencies: [
 		"00e4a1d8"
 	],
+	hide: true,
 	size: 2.0d,
 	tasks: [{
 		uid: "edb053f2",

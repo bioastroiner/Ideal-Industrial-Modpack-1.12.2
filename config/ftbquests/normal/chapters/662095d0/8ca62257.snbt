@@ -13,7 +13,6 @@
 		"78d6911c",
 		"320166b2"
 	],
-	hide: true,
 	tasks: [{
 		uid: "512baf30",
 		type: "fluid",

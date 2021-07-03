@@ -6,7 +6,6 @@
 		"b1293e60",
 		"9b75479c"
 	],
-	hide: true,
 	optional: true,
 	tasks: [{
 		uid: "af32d9ba",

@@ -104,18 +104,6 @@
             }
         },
 		
-		#"replayviewer":
-		#{
-		#	"text" : "replaymod.gui.replayviewer",
-		#	"posX" : 120,
-		#	"posY" : 20,
-		#	"width" : 80,
-		#	"height" : 20,
-		#	"alignment" : "center",
-		#	"texture" : "modpack:mainmenu/blankbutton.png",
-		#	"wrappedButton": 17890234
-		#},
-		
 		"Discord":
         {
             "text" : "Discord",
@@ -155,7 +143,7 @@
     
     "labels":
     {
-        "VerClientTEXT":
+        "CurrentClientVersionLabel":
         {
             "text" : "Current Version:",
             "posX" : 2,
@@ -164,16 +152,16 @@
             "alignment" : "bottom_left"
         },
 		
-		"VerClient":
+		"CurrentClientVersionProvider":
         {
-            "text" : "0.9",
+            "text" : "0.9.1",
             "posX" : 68,
             "posY" : -20,
             "color" : -1,
             "alignment" : "bottom_left"
         },
 		
-		"VerClientAvText":
+		"LatestClientVersionLabel":
         {
             "text" : "Latest Version:",
             "posX" : 2,
@@ -182,9 +170,9 @@
             "alignment" : "bottom_left"
         },
 		
-		"VerClientAv":
+		"LatestClientVersionProviderURL":
         {
-            "text":"web:https://pastebin.com/raw/TZzAyaWZ",
+            "text":"web:https://pastebin.com/raw/3vmKMrJ5",
             "posX" : 62,
             "posY" : -10,
             "color" : -1,

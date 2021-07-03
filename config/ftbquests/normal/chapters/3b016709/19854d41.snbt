@@ -8,7 +8,6 @@
 		"c931dddf",
 		"07c09c33"
 	],
-	hide: true,
 	dependency_requirement: "one_completed",
 	or_tasks: true,
 	tasks: [{

@@ -3,9 +3,9 @@
 #Quests#
 #Translation by SpeeeDCraft (by the power of Google Translate)
 ##################################################################################################################################
-########################################################## Primitive Phase #######################################################
+########################################################## Steam Phase ###########################################################
 ##################################################################################################################################
-tfg.quests.primitive.era.title=Primitive - Era I
+tfg.quests.steam.era.title=Steam Age - I
 
 tfg.quests.primitive.start.title=The Beginning
 tfg.quests.primitive.start.subtitle=
@@ -17,11 +17,6 @@ tfg.quests.primitive.primitiveTools.subtitle=Wait, you can't punch a tree to dea
 
 tfg.quests.primitive.TinaAndCopperOre.title=Your first ore
 tfg.quests.primitive.TinaAndCopperOre.subtitle=I suggest you dig up some useful ore, but it's really under your feet.
-
-##################################################################################################################################
-########################################################## Steam Phase ###########################################################
-##################################################################################################################################
-tfg.quests.steam.era.title=Primitive+Steam - Era I+II
 
 tfg.quests.steam.mortar.title=Mortar
 tfg.quests.steam.mortar.subtitle=Grind metals, confuse them with your grandfather's ashes.
@@ -136,7 +131,7 @@ tfg.quests.steam.steamtubine.subtitle=Now you can make electricity.
 ##################################################################################################################################
 ########################################################## LV Phase ##############################################################
 ##################################################################################################################################
-tfg.quests.lv.era.title=LV electricity - Era III
+tfg.quests.lv.era.title=LV Age - II
 
 tfg.quests.lv.start.title=A new era!
 tfg.quests.lv.start.subtitle=Remember that if there isn't a quest for something, that doesn't mean it's useless. These just provide direction.
@@ -265,7 +260,7 @@ tfg.quests.lv.lathe.subtitle=Creates sticks from ingots. Also byproducts.
 ##################################################################################################################################
 ########################################################## MV Phase ##############################################################
 ##################################################################################################################################
-tfg.quests.mv.era.title=MV electricity - Era IV
+tfg.quests.mv.era.title=MV Age - III
 
 tfg.quests.mv.batterybuffer2.title=Battery buffer (MV)
 
@@ -328,7 +323,7 @@ tfg.quests.mv.stainless.subtitle=Fancy HV metal.
 ##################################################################################################################################
 ########################################################## HV Phase ##############################################################
 ##################################################################################################################################
-tfg.quests.hv.era.title=HV electricity - Era V
+tfg.quests.hv.era.title=HV Age - IV
 
 tfg.quests.hv.hvprocessor.title=Extreme computing
 tfg.quests.hv.hvprocessor.subtitle=Extremely good at computing, I assume.
@@ -354,7 +349,7 @@ tfg.quests.hv.tetratitan.title=TITAN
 ##################################################################################################################################
 ########################################################## EV Phase ##############################################################
 ##################################################################################################################################
-tfg.quests.ev.era.title=EV electricity - Era VI
+tfg.quests.ev.era.title=EV Age - V
 
 tfg.quests.ev.evhull.subtitle=This is different from the last one. Trust me.
 
@@ -363,7 +358,7 @@ tfg.quests.ev.naquadahreactor.subtitle=FELL THE POWER.
 ##################################################################################################################################
 ########################################################## AE2 Phase #############################################################
 ##################################################################################################################################
-tfg.quests.ae2.era.title=Applied Energistics 2 - Era VI.V
+tfg.quests.ae2.era.title=Applied Energistics 2 - Age VI
 
 tfg.quests.ae2.certusquartz.subtitle=Shiny.
 
@@ -436,7 +431,7 @@ tfg.quests.ae2.quantumring.subtitle=Interplanetary access to the system.
 ##################################################################################################################################
 ########################################################## Space Phase ###########################################################
 ##################################################################################################################################
-tfg.quests.space.era.title=Space - Era VII
+tfg.quests.space.era.title=Space Age - VII
 
 tfg.quests.space.start.title=Let's hope there's xenos to purge.
 tfg.quests.space.start.subtitle=The Company denies all claims of using stock planets for system construction. Thinking otherwise is treason. Treason is punishable by death.
@@ -539,4 +534,11 @@ tfg.quests.space.wpspace.subtitle=Now put on a GC space suit or a nano/quantum a
 ##################################################################################################################################
 ########################################################## DRACONIC + PROJECTE PHASE #############################################
 ##################################################################################################################################
-iim.quests.dp.era.title=Nano-tech - Era VIII
+iim.quests.dp.era.title=Quantum Tech Age - VIII
+
+##################################################################################################################################
+########################################################## DMITRY TABLE ##########################################################
+##################################################################################################################################
+imm.quests.mendeleevtable.era.title=The Periodic Table
+
+imm.quests.mendeleevtable.collectthepokemons.title=Collect all pokemon

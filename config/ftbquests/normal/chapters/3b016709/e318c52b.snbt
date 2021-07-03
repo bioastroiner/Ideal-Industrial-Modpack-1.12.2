@@ -15,7 +15,6 @@
 		"3ee57151",
 		"f161c794"
 	],
-	hide: true,
 	tasks: [{
 		uid: "ed12010e",
 		type: "fluid",

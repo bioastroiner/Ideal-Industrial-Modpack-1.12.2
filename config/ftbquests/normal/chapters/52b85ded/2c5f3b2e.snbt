@@ -5,7 +5,6 @@
 		"f54b668b",
 		"218ea729"
 	],
-	hide: true,
 	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "ecd0a17f",

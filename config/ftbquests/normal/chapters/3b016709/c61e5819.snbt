@@ -6,7 +6,6 @@
 		"6aeff01a",
 		"9225221c"
 	],
-	hide: true,
 	dependency_requirement: "one_completed",
 	optional: true,
 	tasks: [{
