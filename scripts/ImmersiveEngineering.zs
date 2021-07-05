@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack;
 
-val IEHammer = <immersiveengineering:tool>.withTag({multiblockInterdiction: ["IE:CokeOven", "IE:AlloySmelter", "IE:BlastFurnace", "IE:BlastFurnaceAdvanced", "IE:MetalPress", "IE:Crusher", "IE:SheetmetalTank", "IE:Silo", "IE:Assembler", "IE:AutoWorkbench", "IE:BottlingMachine", "IE:Squeezer", "IE:Fermenter", "IE:Refinery",  "IE:ArcFurnace", "IE:Lightningrod", "IE:Mixer", "Feedthrough"]});
+val IEHammer = <immersiveengineering:tool>.withTag({multiblockInterdiction: ["IE:CokeOven", "IE:AlloySmelter", "IE:BlastFurnace", "IE:BlastFurnaceAdvanced", "IE:MetalPress", "IE:Crusher", "IE:SheetmetalTank", "IE:Silo", "IE:Assembler", "IE:AutoWorkbench", "IE:BottlingMachine", "IE:Squeezer", "IE:Fermenter", "IE:Refinery",  "IE:ArcFurnace", "IE:Mixer", "Feedthrough"]});
 
 //Удаление рецептов + отображение
 global ItemsToRemoveIEJEI as IItemStack[] = [
@@ -94,7 +94,6 @@ global ItemsToRemoveIEJEI as IItemStack[] = [
 	<immersiveengineering:storage_slab:6>,
 	<immersiveengineering:storage_slab:7>,
 	<immersiveengineering:storage_slab:8>,
-	<immersiveengineering:stone_decoration>,
 	<immersiveengineering:stone_decoration:1>,
 	<immersiveengineering:stone_decoration:2>,
 	<immersiveengineering:stone_decoration:8>,
@@ -118,6 +117,22 @@ for item in ItemsToRemoveIEJEI{
 //Удаление рецептов
 global ItemsToRemoveIE as IItemStack[] = [
 	<immersiveengineering:tool>,
+	<immersiveengineering:wirecoil>,
+	<immersiveengineering:wirecoil:1>,
+	<immersiveengineering:wirecoil:2>,
+	<immersiveengineering:wirecoil:4>,
+	<immersiveengineering:wirecoil:5>,
+	<immersiveengineering:connector:3>,
+	<immersiveengineering:connector:2>,
+	<immersiveengineering:connector:1>,
+	<immersiveengineering:connector:4>,
+	<immersiveengineering:connector:5>,
+	<immersiveengineering:metal_decoration0:3>,
+	<immersiveengineering:metal_decoration0:4>,
+	<immersiveengineering:metal_decoration0:5>,
+	<immersiveengineering:metal_decoration0>,
+	<immersiveengineering:metal_decoration0:1>,
+	<immersiveengineering:metal_decoration0:2>
 ] as IItemStack[];
 for item in ItemsToRemoveIE{
     recipes.remove(item);
@@ -129,9 +144,62 @@ recipes.addShaped(IEHammer,
 	[null, <ore:stickWood>, <ore:plateIron>], 
 	[<ore:stickWood>, null, null]]);
 
+//Кабеля
+recipes.addShaped(<immersiveengineering:wirecoil> * 4, 
+	[[null, <gregtech:cable:18>, null], 
+	[<gregtech:cable:18>, <ore:stickWood>, <gregtech:cable:18>], 
+	[null, <gregtech:cable:18>, null]]);
+
+recipes.addShaped(<immersiveengineering:wirecoil:1> * 4, 
+	[[null, <gregtech:cable:112>, null], 
+	[<gregtech:cable:112>, <ore:stickWood>, <gregtech:cable:112>], 
+	[null, <gregtech:cable:112>, null]]);
+
+recipes.addShaped(<immersiveengineering:wirecoil:2> * 4, 
+	[[null, <gregtech:cable:1>, null], 
+	[<gregtech:cable:184>, <ore:stickWood>, <gregtech:cable:184>], 
+	[null, <gregtech:cable:1>, null]]);
+
+recipes.addShaped(<immersiveengineering:wirecoil:2> * 4, 
+	[[null, <gregtech:cable:184>, null], 
+	[<gregtech:cable:1>, <ore:stickWood>, <gregtech:cable:1>], 
+	[null, <gregtech:cable:184>, null]]);
+
+recipes.addShaped(<immersiveengineering:wirecoil:4> * 4, 
+	[[null, <gregtech:cable:184>, null], 
+	[<gregtech:cable:184>, <ore:stickWood>, <gregtech:cable:184>], 
+	[null, <gregtech:cable:184>, null]]);
+
+
+recipes.addShaped(<immersiveengineering:wirecoil:5> * 4, 
+	[[null, <gregtech:cable:1>, null], 
+	[<minecraft:redstone>, <ore:stickWood>, <minecraft:redstone>], 
+	[null, <gregtech:cable:1>, null]]);
+
+
+recipes.addShaped(<immersiveengineering:wirecoil:5> * 4, 
+	[[null, <minecraft:redstone>, null], 
+	[<gregtech:cable:1>, <ore:stickWood>, <gregtech:cable:1>], 
+	[null, <minecraft:redstone>, null]]);
 
 
 
+//Инженерные блоки
+recipes.addShaped(<immersiveengineering:metal_decoration0:5> * 2, [[<ore:plateSteel>, <immersiveengineering:material:8>, <ore:plateSteel>],[<ore:circuitGood>, <ore:plateElectrum>, <ore:circuitGood>], [<ore:plateSteel>, <immersiveengineering:material:8>, <ore:plateSteel>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration0:4>, [[<ore:plateWroughtIron>, <immersiveengineering:material:8>, <ore:plateWroughtIron>],[<ore:plateCopper>, <ore:circuitBasic>, <ore:plateCopper>], [<ore:plateWroughtIron>, <immersiveengineering:material:8>, <ore:plateWroughtIron>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration0:3>, [[<ore:plateWroughtIron>, <minecraft:redstone>, <ore:plateWroughtIron>],[<minecraft:redstone>, <ore:plateCopper>, <minecraft:redstone>], [<ore:plateWroughtIron>, <minecraft:redstone>, <ore:plateWroughtIron>]]);
+
+//Коннекторы 
+recipes.addShaped(<immersiveengineering:connector>, [[null, <ore:stickCopper>, null],[<minecraft:hardened_clay>, <ore:stickCopper>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <ore:stickCopper>, <minecraft:hardened_clay>]]);
+recipes.addShaped(<immersiveengineering:connector:1>, [[null, null, null],[null, <ore:stickCopper>, null], [<minecraft:hardened_clay>, <ore:stickCopper>, <minecraft:hardened_clay>]]);
+recipes.addShaped(<immersiveengineering:connector:2>, [[null, <ore:stickElectrum>, null],[<minecraft:hardened_clay>, <ore:stickElectrum>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <ore:stickElectrum>, <minecraft:hardened_clay>]]);
+recipes.addShaped(<immersiveengineering:connector:3>, [[null, null, null],[null, <ore:stickElectrum>, null], [<minecraft:hardened_clay>, <ore:stickElectrum>, <minecraft:hardened_clay>]]);
+recipes.addShaped(<immersiveengineering:connector:5>, [[null, <ore:stickAluminum>, null],[<immersiveengineering:stone_decoration:8>, <ore:stickAluminum>, <immersiveengineering:stone_decoration:8>], [<immersiveengineering:stone_decoration:8>, <ore:stickAluminum>, <immersiveengineering:stone_decoration:8>]]);
+recipes.addShaped(<immersiveengineering:connector:4>, [[null, <ore:stickAluminum>, null],[<minecraft:hardened_clay>, <ore:stickAluminum>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <ore:stickAluminum>, <minecraft:hardened_clay>]]);
+
+recipes.addShaped(<immersiveengineering:metal_decoration0>, [[<immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>],[<immersiveengineering:wirecoil>, <ore:stickIron>, <immersiveengineering:wirecoil>], [<immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration0:1>, [[<immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>],[<immersiveengineering:wirecoil:1>, <ore:stickIron>, <immersiveengineering:wirecoil:1>], [<immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration0:2>, [[<immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>],[<immersiveengineering:wirecoil:2>, <ore:stickIron>, <immersiveengineering:wirecoil:2>], [<immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>, <immersiveengineering:wirecoil:2>]]);
 
 
 

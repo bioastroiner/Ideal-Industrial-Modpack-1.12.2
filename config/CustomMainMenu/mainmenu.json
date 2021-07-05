@@ -18,8 +18,8 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -200,
-            "posY" : 0,
+            "posX" : -40,
+            "posY" : -50,
 			"texture" : "modpack:mainmenu/blankbutton.png",
             "alignment" : "center",
 			"hoverImage" : "modpack:mainmenu/ds.png",
@@ -37,8 +37,8 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -120,
-            "posY" : 0,
+            "posX" : -40,
+            "posY" : -20,
 			"texture" : "modpack:mainmenu/blankbutton.png",
             "alignment" : "center",
 			"hoverText" : "With friends?",
@@ -51,30 +51,12 @@
                 "gui" : "multiplayer"
             }
         },
-        
-        "mods":
-        {
-            "text" : "fml.menu.mods",
-            "posX" : -40,
-            "posY" : 0,
-			"texture" : "modpack:mainmenu/blankbutton.png",
-            "alignment" : "center",
-			"hoverTextColor" : 16757535,
-			"hoverText" : "Some not enough?",
-            "width" : 80,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
             
         "options":
         {
             "text" : "menu.options",
-            "posX" : 40,
-            "posY" : 0,
+            "posX" : -40,
+            "posY" : 10,
 			"texture" : "modpack:mainmenu/blankbutton.png",
             "alignment" : "center",
 			"hoverTextColor" : 16719857,
@@ -90,8 +72,8 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 120,
-            "posY" : 0,
+            "posX" : -40,
+            "posY" : 40,
 			"texture" : "modpack:mainmenu/blankbutton.png",
             "alignment" : "center",
 			"hoverTextColor" : 16719647,
@@ -111,8 +93,8 @@
 			"texture" : "modpack:mainmenu/blankbutton.png",
 			"hoverText" : "Come on, bro!",
 			"hoverTextColor" : 16719647,
-            "posX" : -80,
-            "posY" : 20,
+            "posX" : -40,
+            "posY" : 70,
             "width" : 80,
             "height" : 20,
             "action" :
@@ -129,8 +111,8 @@
 			"texture" : "modpack:mainmenu/blankbutton.png",
 			"hoverText" : "Some Video?",
 			"hoverTextColor" : 16719647,
-            "posX" : 0,
-            "posY" : 20,
+            "posX" : -40,
+            "posY" : 100,
             "width" : 80,
             "height" : 20,
             "action" :
@@ -138,7 +120,21 @@
 				"type" : "openLink",
 				"link" : "https://www.youtube.com/channel/UCuDptAueJ7YoIYMGafrH-Mw"
 			}
-		}
+		},
+		
+		"refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
     },
     
     "labels":
@@ -154,7 +150,7 @@
 		
 		"CurrentClientVersionProvider":
         {
-            "text" : "0.9.1",
+            "text" : "1.0",
             "posX" : 68,
             "posY" : -20,
             "color" : -1,
