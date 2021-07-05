@@ -1,62 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <config>
-	<lines at="topleft">
+    <lines at="topleft">
         <line>
-            <icon>
-                <str>sereneseasons:textures/items/ss_icon.png</str>
-                <op> <!-- iconx -->
-                    <str>eq</str>
-                    <var>sereneseasonscurrentseasonord</var>
-                    <num>0</num>
-                    <num>1</num>
-                    <num>2</num>
-                    <num>3</num>
-                    <num>0</num>
-                    <num>16</num>
-                    <num>16</num>
-                    <num>0</num>
-                    <num>0</num>
-                </op>
-                <op> <!-- icony -->
-                    <str>eq</str>
-                    <var>sereneseasonscurrentseasonord</var>
-                    <num>0</num>
-                    <num>1</num>
-                    <num>2</num>
-                    <num>3</num>
-                    <num>0</num>
-                    <num>0</num>
-                    <num>16</num>
-                    <num>16</num>
-                    <num>0</num>
-                </op>
-                <num>16</num> <!-- iconwidth -->
-                <num>16</num> <!-- iconheight -->
-                <num>32</num> <!-- texwidth -->
-                <num>32</num> <!-- texheight -->
-            </icon>
-            <op>
-                <str>eq</str>
-                <var>sereneseasonscurrentseasonord</var>
-                <num>0</num>
-                <num>1</num>
-                <num>2</num>
-                <num>3</num>
-                <str> Spring</str>
-                <str> Summer</str>
-                <str> Autumn</str>
-                <str> Winter</str>
-                <str> Error</str>
-            </op>
-
-            <str>, Day {day}</str>
-            
-            <str>, {mctime} </str>
+            <str>Day {day}, {mctime} (</str>
             <if>
                 <var>daytime</var>
-                <str>($eD$f)</str>
-                <str>($8N$f)</str>
+                <str>$eDay</str>
+                <str>$8Night</str>
             </if>
+            <str> time$f)</str>
         </line>
         <line>
             <str>Biome: $e{biome}$f</str>
@@ -65,6 +17,36 @@
                 <str> ($aSlime$f)</str>
                 <str> </str>
             </if>
+        </line>
+        <line>
+            <str>Light: </str>
+            <max>
+                <var>light</var>
+                <num>7.5</num>
+                <str>$e</str>
+                <str>$c</str>
+            </max>
+            <var>light</var>
+            <str>$r (eye: </str>
+            <max>
+                <var>lighteye</var>
+                <num>7.5</num>
+                <str>$e</str>
+                <str>$c</str>
+            </max>
+            <var>lighteye</var>
+            <str>$r)</str>
+        </line>
+        <line>
+            <str>$fEXP: $e{xpthislevel}$f / $e{xpcap}$f ($e</str>
+            <round>
+                <pct>
+                    <var>xpthislevel</var>
+                    <var>xpcap</var>
+                </pct>
+                <num>0</num>
+            </round>
+            <str>%$f)</str>
         </line>
         <line>
             <str>FPS: </str>

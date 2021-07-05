@@ -82,9 +82,6 @@ minecraft:parrot
 minecraft:villager
 minecraft:ender_crystal
 aquaculture:custom_fish_hook
-biomesoplenty:mudball
-biomesoplenty:bop_boat
-biomesoplenty:wasp
 computercraft:turtle_player
 clumps:xp_orb_big
 draconicevolution:persistentitem
@@ -102,9 +99,6 @@ immersivepetroleum:speedboat
 appliedenergistics2:appeng.entity.entitygrowingcrystal
 appliedenergistics2:appeng.entity.entitysingularity
 appliedenergistics2:appeng.entity.entitychargedquartz
-enderio:falling_machine
-enderio:owl_egg
-enderio:primed_charge
 projecte:water_projectile
 projecte:lava_projectile
 projecte:mob_randomizer
@@ -115,8 +109,6 @@ projecte:homing_arrow
 projecte:fire_projectile
 projecte:swrg_projectile
 dynamictrees:falling_tree
-dynamictreesbop:maple_seed
-dynamictreesbop:magic_seed
 dynamictreesforestry:mapleseed
 dynamictreesphc:mapleseed
 netherex:ghast_queen_fireball
@@ -140,6 +132,11 @@ netherex:brute
 netherex:frost
 netherex:ghast_queen
 snowrealmagic:snow
+byg:fungalzombie
+byg:petrifiedzombie
+byg:petrifiedspider
+byg:kiwibird
+byg:ivorywoodpecker
 warpdrive:entityspheregenerator
 warpdrive:entity_star_sore
 warpdrive:entity_camera
