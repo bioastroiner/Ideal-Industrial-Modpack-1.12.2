@@ -115,21 +115,8 @@
 				"type" : "openLink",
 				"link" : "https://www.youtube.com/channel/UCuDptAueJ7YoIYMGafrH-Mw"
 			}
-		},
-		
-		"refresh":
-        {
-            "text" : "",
-            "posX" : -120,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
-        }
+		}
+
     },
     
     "labels":
