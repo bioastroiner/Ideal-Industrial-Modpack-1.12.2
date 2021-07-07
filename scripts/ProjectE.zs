@@ -1,5 +1,37 @@
 import crafttweaker.item.IItemStack;
 
+//Удаление рецептов + скрытие
+global ItemsToRemovePEJEI as IItemStack[] = [
+	<projecte:item.pe_rm_armor_3>,
+	<projecte:item.pe_rm_armor_2>,
+	<projecte:item.pe_rm_armor_1>,
+	<projecte:item.pe_rm_armor_0>,
+	<projecte:item.pe_dm_armor_3>,
+	<projecte:item.pe_dm_armor_2>,
+	<projecte:item.pe_dm_armor_1>,
+	<projecte:item.pe_dm_armor_0>,
+	<projecte:item.pe_gem_armor_3>,
+	<projecte:item.pe_gem_armor_2>,
+	<projecte:item.pe_gem_armor_1>,
+	<projecte:item.pe_gem_armor_0>,
+	<projecte:item.pe_repair_talisman>,
+	<projecte:item.pe_time_watch>,
+	<projecte:item.pe_tome>,
+	<projecte:item.pe_manual>,
+	<projecte:item.pe_water_orb>,
+	<projecte:item.pe_lava_orb>,
+	<projecte:item.pe_randomizer>,
+	<projecte:item.pe_lens_explosive>,
+	<projecte:item.pe_fire_projectile>,
+	<projecte:item.pe_wind_projectile>,
+	<projecte:item.pe_divining_rod_1>,
+	<projecte:item.pe_divining_rod_2>,
+	<projecte:item.pe_divining_rod_3>
+] as IItemStack[];
+for item in ItemsToRemovePEJEI{
+    mods.jei.JEI.removeAndHide(item);
+}
+
 //Удаление рецептов
 global ItemsToRemovePE as IItemStack[] = [
 	<projecte:item.pe_matter>,
@@ -31,7 +63,6 @@ global ItemsToRemovePE as IItemStack[] = [
 	<projecte:relay_mk3>,
 	<projecte:rm_furnace>,
 	<projecte:item.pe_alchemical_bag>,
-	<projecte:item.pe_repair_talisman>,
 	<projecte:item.pe_klein_star>,
 	<projecte:item.pe_klein_star:1>,
 	<projecte:item.pe_klein_star:2>,
@@ -44,11 +75,7 @@ global ItemsToRemovePE as IItemStack[] = [
 	<projecte:item.pe_covalence_dust>,
 	<projecte:item.pe_zero_ring>,
 	<projecte:item.pe_swrg>,
-	<projecte:item.pe_time_watch>,
 	<projecte:item.pe_gem_density>,
-	<projecte:item.pe_divining_rod_1>,
-	<projecte:item.pe_divining_rod_2>,
-	<projecte:item.pe_divining_rod_3>,
 	<projecte:item.pe_mercurial_eye>,
 	<projecte:item.pe_void_ring>,
 	<projecte:item.pe_dm_hammer>,
@@ -61,18 +88,6 @@ global ItemsToRemovePE as IItemStack[] = [
 	<projecte:item.pe_rm_hammer>,
 	<projecte:item.pe_rm_katar>,
 	<projecte:item.pe_rm_morning_star>,
-	<projecte:item.pe_rm_armor_3>,
-	<projecte:item.pe_rm_armor_2>,
-	<projecte:item.pe_rm_armor_1>,
-	<projecte:item.pe_rm_armor_0>,
-	<projecte:item.pe_dm_armor_3>,
-	<projecte:item.pe_dm_armor_2>,
-	<projecte:item.pe_dm_armor_1>,
-	<projecte:item.pe_dm_armor_0>,
-	<projecte:item.pe_gem_armor_3>,
-	<projecte:item.pe_gem_armor_2>,
-	<projecte:item.pe_gem_armor_1>,
-	<projecte:item.pe_gem_armor_0>,
 	<projecte:item.pe_ring_iron_band>,
 	<projecte:item.pe_black_hole>,
 	<projecte:item.pe_archangel_smite>,

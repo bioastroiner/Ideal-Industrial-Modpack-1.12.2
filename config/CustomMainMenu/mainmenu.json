@@ -1,15 +1,17 @@
 {
     "images":
     {
+		
         "title":
         {
             "image" : "modpack:mainmenu/iimlogo.png",
-            "posX" : -240,
-            "posY" : -30,
-            "width" : 480,
-            "height" : 180,
-            "alignment" : "top_center"
+            "posX" : -7,
+            "posY" : -140,
+            "width" : 300,
+            "height" : 113,
+            "alignment" : "left_center"
         }
+		
 		
     },
     
@@ -18,11 +20,10 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -40,
+            "posX" : 100,
             "posY" : -50,
-			"texture" : "modpack:mainmenu/blankbutton.png",
-            "alignment" : "center",
-			"hoverImage" : "modpack:mainmenu/ds.png",
+			"texture" : "modpack:mainmenu/button.png",
+            "alignment" : "left_center",
 			"hoverTextColor" : 2096931,
 			"hoverText" : "Alone, again..",
             "width" : 80,
@@ -33,14 +34,13 @@
                 "gui" : "singleplayer"
             }
         },
-        
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -40,
+            "posX" : 100,
             "posY" : -20,
-			"texture" : "modpack:mainmenu/blankbutton.png",
-            "alignment" : "center",
+			"texture" : "modpack:mainmenu/button.png",
+            "alignment" : "left_center",
 			"hoverText" : "With friends?",
 			"hoverTextColor" : 2070783,
             "width" : 80,
@@ -51,14 +51,13 @@
                 "gui" : "multiplayer"
             }
         },
-            
         "options":
         {
             "text" : "menu.options",
-            "posX" : -40,
+            "posX" : 100,
             "posY" : 10,
-			"texture" : "modpack:mainmenu/blankbutton.png",
-            "alignment" : "center",
+			"texture" : "modpack:mainmenu/button.png",
+            "alignment" : "left_center",
 			"hoverTextColor" : 16719857,
 			"hoverText" : "Install shaders..",
             "width" : 80,
@@ -72,10 +71,10 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : -40,
+            "posX" : 100,
             "posY" : 40,
-			"texture" : "modpack:mainmenu/blankbutton.png",
-            "alignment" : "center",
+			"texture" : "modpack:mainmenu/button.png",
+            "alignment" : "left_center",
 			"hoverTextColor" : 16719647,
 			"hoverText" : "No, no, why?",
             "width" : 80,
@@ -88,14 +87,12 @@
 		
 		"Discord":
         {
-            "text" : "Discord",
-            "alignment" : "center",
-			"texture" : "modpack:mainmenu/blankbutton.png",
-			"hoverText" : "Come on, bro!",
-			"hoverTextColor" : 16719647,
-            "posX" : -40,
-            "posY" : 70,
-            "width" : 80,
+            "text" : "",
+            "alignment" : "bottom_right",
+			"texture" : "modpack:mainmenu/ds.png",
+            "posX" : -42,
+            "posY" : -22,
+            "width" : 20,
             "height" : 20,
             "action" :
 			{
@@ -106,14 +103,12 @@
 		
 		"Youtube":
         {
-            "text" : "Youtube",
-            "alignment" : "center",
-			"texture" : "modpack:mainmenu/blankbutton.png",
-			"hoverText" : "Some Video?",
-			"hoverTextColor" : 16719647,
-            "posX" : -40,
-            "posY" : 100,
-            "width" : 80,
+            "text" : "",
+            "alignment" : "bottom_right",
+			"texture" : "modpack:mainmenu/yt.png",
+            "posX" : -22,
+            "posY" : -22,
+            "width" : 20,
             "height" : 20,
             "action" :
 			{
@@ -125,7 +120,7 @@
 		"refresh":
         {
             "text" : "",
-            "posX" : -154,
+            "posX" : -120,
             "posY" : 132,
             "width" : 20,
             "height" : 20,

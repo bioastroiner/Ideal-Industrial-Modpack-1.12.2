@@ -41,6 +41,10 @@ val large_mixer as RecipeMap = RecipeMap.getByName("large_mixer");
 val large_centrifuge as RecipeMap = RecipeMap.getByName("large_centrifuge");
 val distillery as RecipeMap = RecipeMap.getByName("distillery");
 
+//Удаление рецептов
+mods.jei.JEI.removeAndHide(<gregtech:machine:808>);
+mods.jei.JEI.removeAndHide(<gregtech:machine:807>);
+
 //Переработка танков в Arc
 arc_furnace.recipeBuilder().inputs(<gregtech:machine:812>).fluidInputs([<liquid:oxygen> * 150]).outputs(<gregtech:meta_item_1:10095>*3).duration(750).EUt(34).buildAndRegister();
 arc_furnace.recipeBuilder().inputs(<gregtech:machine:813>).fluidInputs([<liquid:oxygen> * 150]).outputs(<gregtech:meta_item_1:10184>*3).duration(750).EUt(34).buildAndRegister();
