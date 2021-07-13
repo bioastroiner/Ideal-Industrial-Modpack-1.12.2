@@ -25,6 +25,7 @@ minecraft:glowing
 minecraft:levitation
 minecraft:luck
 minecraft:unluck
+biomesoplenty:curse
 immersiveengineering:flammable
 immersiveengineering:slippery
 immersiveengineering:conductive
