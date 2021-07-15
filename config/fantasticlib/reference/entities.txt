@@ -85,7 +85,6 @@ aquaculture:custom_fish_hook
 biomesoplenty:mudball
 biomesoplenty:bop_boat
 biomesoplenty:wasp
-computercraft:turtle_player
 clumps:xp_orb_big
 draconicevolution:persistentitem
 draconicevolution:dragonheartitem
@@ -102,9 +101,9 @@ immersivepetroleum:speedboat
 appliedenergistics2:appeng.entity.entitygrowingcrystal
 appliedenergistics2:appeng.entity.entitysingularity
 appliedenergistics2:appeng.entity.entitychargedquartz
-enderio:primed_charge
-enderio:owl_egg
 enderio:falling_machine
+enderio:owl_egg
+enderio:primed_charge
 projecte:water_projectile
 projecte:lava_projectile
 projecte:mob_randomizer
@@ -140,14 +139,6 @@ netherex:brute
 netherex:frost
 netherex:ghast_queen
 snowrealmagic:snow
-warpdrive:entityspheregenerator
-warpdrive:entity_star_sore
-warpdrive:entity_camera
-warpdrive:entity_particle_bunch
-warpdrive:entity_laser_exploder
-warpdrive:entity_npc
-warpdrive:entity_offline_avatar
-warpdrive:entity_seat
 p455w0rdslib:sitting_entity
 forestry:cart.beehouse
 forestry:cart.apiary

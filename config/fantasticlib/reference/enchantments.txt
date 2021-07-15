@@ -30,13 +30,13 @@ minecraft:mending
 minecraft:vanishing_curse
 draconicevolution:enchant_reaper
 projectred-expansion:electric_efficiency
-endercore:xpboost
 endercore:autosmelt
-enderio:repellent
-enderio:witherweapon
+endercore:xpboost
 enderio:witherarrow
-enderio:soulbound
+enderio:repellent
 enderio:shimmer
+enderio:witherweapon
+enderio:soulbound
 gregtech:disjunction
 aquaculture:appealing
 aquaculture:magnetic

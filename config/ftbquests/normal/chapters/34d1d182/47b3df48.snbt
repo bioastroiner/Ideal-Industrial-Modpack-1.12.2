@@ -2,9 +2,6 @@
 	title: "{tfg.quests.space.tier1Nspacesuit.title}",
 	x: 9.0d,
 	y: -7.0d,
-	dependencies: [
-		"8abfbdeb"
-	],
 	tasks: [{
 		uid: "1ec31c96",
 		type: "item",

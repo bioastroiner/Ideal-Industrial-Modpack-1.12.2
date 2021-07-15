@@ -3,9 +3,6 @@
 	x: 6.0d,
 	y: -8.5d,
 	description: "{tfg.quests.space.airlock.subtitle}",
-	dependencies: [
-		"bbf8a781"
-	],
 	tasks: [{
 		uid: "a1103d61",
 		type: "item",
