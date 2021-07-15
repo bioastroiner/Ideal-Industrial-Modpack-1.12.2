@@ -3,6 +3,9 @@
 	x: 9.0d,
 	y: -5.0d,
 	description: "{tfg.quests.space.tier1termalarmor.subtitle}",
+	dependencies: [
+		"f0d8edbf"
+	],
 	tasks: [{
 		uid: "ee4cc1ca",
 		type: "item",

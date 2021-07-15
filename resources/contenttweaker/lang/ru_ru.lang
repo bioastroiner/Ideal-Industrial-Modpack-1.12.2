@@ -1,4 +1,8 @@
 #Content Tweaker#
+item.contenttweaker.part_plate_basic.name=Базовая Пластина
+item.contenttweaker.part_plate_advanced.name=Улучшенная Пластина
+item.contenttweaker.part_plate_du.name=ДУ Пластина
+item.contenttweaker.part_plate_elite.name=Совершенная Пластина
 
 #Quests#
 #Translate by SpeeeDCraft
