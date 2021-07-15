@@ -45,6 +45,16 @@ val distillery as RecipeMap = RecipeMap.getByName("distillery");
 mods.jei.JEI.removeAndHide(<gregtech:machine:808>);
 mods.jei.JEI.removeAndHide(<gregtech:machine:807>);
 
+//Пластины
+//Пластина простая
+icompressor.recipeBuilder().inputs(<ore:ingotSteel> * 2, <ore:ingotCarbon> * 1).property("explosives", 1).outputs(<contenttweaker:part_plate_basic> * 1).duration(50).EUt(32).buildAndRegister();
+//Пластина улучшенная
+icompressor.recipeBuilder().inputs(<ore:plateLead> * 2, <ore:ingotCarbon> * 1).property("explosives", 1).outputs(<contenttweaker:part_plate_advanced> * 1).duration(50).EUt(64).buildAndRegister();
+//Пластина ДУ
+icompressor.recipeBuilder().inputs(<ore:plateZinc> * 2, <ore:ingotCarbon> * 1).property("explosives", 1).outputs(<contenttweaker:part_plate_du> * 1).duration(50).EUt(128).buildAndRegister();
+//Пластина Совершенная
+icompressor.recipeBuilder().inputs(<ore:plateUranium235> * 2, <ore:ingotLead> * 3).property("explosives", 1).outputs(<contenttweaker:part_plate_elite> * 2).duration(50).EUt(256).buildAndRegister();
+
 //Переработка танков в Arc
 arc_furnace.recipeBuilder().inputs(<gregtech:machine:812>).fluidInputs([<liquid:oxygen> * 150]).outputs(<gregtech:meta_item_1:10095>*3).duration(750).EUt(34).buildAndRegister();
 arc_furnace.recipeBuilder().inputs(<gregtech:machine:813>).fluidInputs([<liquid:oxygen> * 150]).outputs(<gregtech:meta_item_1:10184>*3).duration(750).EUt(34).buildAndRegister();

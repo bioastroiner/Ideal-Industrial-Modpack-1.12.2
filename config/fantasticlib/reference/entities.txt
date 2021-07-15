@@ -101,8 +101,8 @@ immersivepetroleum:speedboat
 appliedenergistics2:appeng.entity.entitygrowingcrystal
 appliedenergistics2:appeng.entity.entitysingularity
 appliedenergistics2:appeng.entity.entitychargedquartz
-enderio:falling_machine
 enderio:owl_egg
+enderio:falling_machine
 enderio:primed_charge
 projecte:water_projectile
 projecte:lava_projectile
