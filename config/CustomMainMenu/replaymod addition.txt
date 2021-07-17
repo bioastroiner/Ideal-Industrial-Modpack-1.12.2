@@ -1,0 +1,11 @@
+"replayviewer":
+		{
+			"text" : "replaymod.gui.replayviewer",
+			"posX" : 120,
+			"posY" : 20,
+			"width" : 80,
+			"height" : 20,
+			"alignment" : "center",
+			"texture" : "modpack:mainmenu/button.png",
+			"wrappedButton": 17890234
+		},

@@ -219,3 +219,27 @@ recipes.addShaped(<enderio:item_redstone_sensor_filter>,
 //Timer filter
 recipes.addShaped(<enderio:item_redstone_timer_filter>, 
 [[<ore:cableGtSingleRedAlloy>, <enderio:item_material:60>, <minecraft:clock>]]);
+
+//SPEEDUP Upgrade
+recipes.addShaped(<enderio:item_extract_speed_upgrade>, 
+[[null, <appliedenergistics2:material:30>, null],
+ [null, <enderio:item_basic_item_filter>, null],
+ [null, <appliedenergistics2:material:30>, null]]);
+ 
+//NOT SPEEDUP Upgrade
+recipes.addShaped(<enderio:item_extract_speed_downgrade>*3, 
+[[null, <appliedenergistics2:material:24>, null],
+ [null, <enderio:item_basic_item_filter>, null],
+ [null, <appliedenergistics2:material:24>, null]]);
+
+//Me Smart cable
+recipes.addShaped(<enderio:item_me_conduit>*6, 
+[[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
+ [<appliedenergistics2:part:56>, <appliedenergistics2:part:56>, <appliedenergistics2:part:56>],
+ [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]); 
+ 
+//Me Dense cable
+recipes.addShaped(<enderio:item_me_conduit:1>*6, 
+[[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>],
+ [<appliedenergistics2:part:76>, <appliedenergistics2:part:76>, <appliedenergistics2:part:76>],
+ [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]); 

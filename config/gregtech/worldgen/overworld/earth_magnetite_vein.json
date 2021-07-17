@@ -14,7 +14,7 @@
       "type": "weight_random",
       "values": [
         {
-          "weight": 60,
+          "weight": 50,
           "value": "ore:magnetite"
         },
         {
@@ -28,6 +28,10 @@
 		{
           "weight": 10,
           "value": "ore:precious_metal"
+        },
+		{
+          "weight": 10,
+          "value": "ore:gold"
         }
       ]
     }

@@ -1057,16 +1057,16 @@ recipes.addShapeless(Storage64K,
 [UStorageHousing, StorageComponent64K]);
 //1к ячейка жидкость
 recipes.addShapeless(FluStorage1K, 
-[UStorageHousing, FluStorageComponent1K]);
+[<aeadditions:storage.casing:1>, FluStorageComponent1K]);
 //4к ячейка жидкость
 recipes.addShapeless(FluStorage4K, 
-[UStorageHousing, FluStorageComponent4K]);
+[<aeadditions:storage.casing:1>, FluStorageComponent4K]);
 //16к ячейка жидкость
 recipes.addShapeless(FluStorage16K, 
-[UStorageHousing, FluStorageComponent16K]);
+[<aeadditions:storage.casing:1>, FluStorageComponent16K]);
 //64к ячейка жидкость
 recipes.addShapeless(FluStorage64K, 
-[UStorageHousing, FluStorageComponent64K]);
+[<aeadditions:storage.casing:1>, FluStorageComponent64K]);
 //2к куб ячейка
 recipes.addShapeless(<appliedenergistics2:spatial_storage_cell_2_cubed>, 
 [UStorageHousing, <appliedenergistics2:material:32>]);
@@ -1136,3 +1136,57 @@ recipes.addShaped(<appliedenergistics2:material:34>, [
 [<ore:plateEnderEye>, <appliedenergistics2:material:33>, <ore:plateEnderEye>],
 [<appliedenergistics2:material:33>, EngProc, <appliedenergistics2:material:33>],
 [<ore:plateEnderEye>, <appliedenergistics2:material:33>, <ore:plateEnderEye>]]);
+
+//ExtraCells2 Fork
+//Удаление рецептов
+recipes.removeByRecipeName("aeadditions:storagecells/item/owncasing/256k");
+recipes.removeByRecipeName("aeadditions:storagecells/item/owncasing/1024k");
+recipes.removeByRecipeName("aeadditions:storagecells/item/owncasing/4096k");
+recipes.removeByRecipeName("aeadditions:storagecells/item/owncasing/16384k");
+recipes.removeByRecipeName("aeadditions:storagecells/fluid/owncasing/256k");
+recipes.removeByRecipeName("aeadditions:storagecells/fluid/owncasing/1024k");
+recipes.removeByRecipeName("aeadditions:storagecells/fluid/owncasing/4096k");
+recipes.remove(<aeadditions:part.base>);
+recipes.remove(<aeadditions:part.base:1>);
+recipes.remove(<aeadditions:part.base:3>);
+recipes.remove(<aeadditions:storage.physical:4>.withTag({upgrades: {}, config: {}, fuzzyMode: "IGNORE_ALL"}));
+recipes.remove(<aeadditions:pattern.fluid>);
+recipes.remove(<aeadditions:storage.component>);
+recipes.remove(<aeadditions:storage.component:1>);
+recipes.remove(<aeadditions:storage.component:2>);
+recipes.remove(<aeadditions:storage.component:3>);
+recipes.remove(<aeadditions:storage.component:4>);
+recipes.remove(<aeadditions:storage.component:5>);
+recipes.remove(<aeadditions:storage.component:6>);
+recipes.remove(<aeadditions:storage.casing>);
+recipes.remove(<aeadditions:storage.casing:1>);
+recipes.remove(<aeadditions:storage.fluid.portable>.withTag({fuzzyMode: "IGNORE_ALL"}));
+recipes.remove(<aeadditions:fluidcrafter>);
+recipes.remove(<aeadditions:fluidfiller>);
+recipes.remove(<aeadditions:hardmedrive>);
+mods.jei.JEI.removeAndHide(<aeadditions:terminal.fluid.wireless>.withTag({}));
+mods.jei.JEI.removeAndHide(<aeadditions:terminal.universal.wireless>.withTag({type: 0 as byte, modules: 23 as byte}));
+mods.jei.JEI.removeAndHide(<aeadditions:vibrantchamberfluid>);
+mods.jei.JEI.removeAndHide(<aeadditions:certustank>);
+
+//256k item storage
+assembler.recipeBuilder().inputs(<gregtech:meta_item_2:32485>*8, <appliedenergistics2:material:23>*2, <ore:circuitElite>*2, <appliedenergistics2:material:38>*2).outputs(<aeadditions:storage.component>).duration(300).EUt(3000).buildAndRegister();
+//1024k item storage
+assembler.recipeBuilder().inputs(<gregtech:meta_item_2:32485>*16, <appliedenergistics2:material:23>*4, <ore:circuitMaster>*2, <aeadditions:storage.component>*2).outputs(<aeadditions:storage.component:1>).duration(300).EUt(5000).buildAndRegister();
+//4096k item storage
+assembler.recipeBuilder().inputs(<gregtech:meta_item_2:32485>*24, <appliedenergistics2:material:23>*6, <ore:circuitUltimate>*2, <aeadditions:storage.component:1>*2).outputs(<aeadditions:storage.component:2>).duration(300).EUt(7000).buildAndRegister();
+//16384k item storage
+assembler.recipeBuilder().inputs(<gregtech:meta_item_2:32485>*32, <appliedenergistics2:material:23>*8, <ore:circuitSuperconductor>*2, <aeadditions:storage.component:2>*2).outputs(<aeadditions:storage.component:3>).duration(300).EUt(9000).buildAndRegister();
+
+//256k fluid storage
+assembler.recipeBuilder().inputs(<gregtech:meta_item_2:32485>*8, <appliedenergistics2:material:24>*2, <ore:circuitElite>*2, <appliedenergistics2:material:57>*2).outputs(<aeadditions:storage.component:4>).duration(300).EUt(3000).buildAndRegister();
+//1024k fluid storage
+assembler.recipeBuilder().inputs(<gregtech:meta_item_2:32485>*16, <appliedenergistics2:material:24>*4, <ore:circuitMaster>*2, <aeadditions:storage.component:4>*2).outputs(<aeadditions:storage.component:5>).duration(300).EUt(5000).buildAndRegister();
+//4096k fluid storage
+assembler.recipeBuilder().inputs(<gregtech:meta_item_2:32485>*24, <appliedenergistics2:material:24>*6, <ore:circuitUltimate>*2, <aeadditions:storage.component:5>*2).outputs(<aeadditions:storage.component:6>).duration(300).EUt(7000).buildAndRegister();
+
+//Fluid Storage Housing
+assembler.recipeBuilder().inputs(CertusPlate*2, QuartziteScrew*2, StainlessPlate*2, plateAluminum*2).outputs(<aeadditions:storage.casing:1>).duration(250).EUt(128).buildAndRegister();
+
+//Advanced Storage Housing
+assembler.recipeBuilder().inputs(<appliedenergistics2:material:39>*2, QuartziteScrew*4, StainlessPlate*4, plateAluminum*4).outputs(<aeadditions:storage.casing>).duration(250).EUt(128).buildAndRegister();
