@@ -2,6 +2,8 @@ import crafttweaker.item.IItemStack;
 
 //Удаление рецептов + скрытие
 global ItemsToRemoveNEJEI as IItemStack[] = [
+	<netherex:amethyst_crystal>,
+	<netherex:amethyst_block>,
 	<netherex:blazed_amedian_axe>,
 	<netherex:withered_amedian_pickaxe>,
 	<netherex:withered_amedian_shovel>,

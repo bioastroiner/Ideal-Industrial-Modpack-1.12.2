@@ -132,8 +132,8 @@
 		
 		"CurrentClientVersionProvider":
         {
-            "text" : "1.4.1",
-            "posX" : 68,
+            "text" : "1.5",
+            "posX" : 70,
             "posY" : -20,
             "color" : -1,
             "alignment" : "bottom_left"

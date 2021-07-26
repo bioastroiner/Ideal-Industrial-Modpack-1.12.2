@@ -6,10 +6,10 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "0b8b6a03",
+		uid: "f68d000b",
 		type: "item",
 		items: [{
-			item: "projecte:transmutation_table"
+			item: "gregtech:machine 1 2504"
 		}]
 	}]
 }

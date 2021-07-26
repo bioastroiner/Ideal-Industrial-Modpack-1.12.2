@@ -4,55 +4,67 @@ import crafttweaker.item.IItemStack;
 val compressor as RecipeMap = RecipeMap.getByName("compressor");
 val assembler as RecipeMap = RecipeMap.getByName("assembler");
 
-var platebrass = <ore:plateBrass>;
-var platebronze = <ore:plateBronze>;
-var ingotaluminium = <ore:ingotAluminium>;
-var ingotgold = <ore:ingotGold>;
-var screwsteel = <ore:screwSteel>;
-var plank = <ore:plankWood>;
-var rodsteel = <ore:stickSteel>;
-var piston = <ore:craftingPiston>;
-var clock = <minecraft:clock>;
-var gearsteel = <ore:gearSteel>;
-var glass = <ore:blockGlass>;
+//Удаление рецептов + скрытие
+global ItemsToRemoveFOJEI as IItemStack[] = [
+	<forestry:gear_bronze>,
+	<forestry:gear_copper>,
+	<forestry:gear_tin>,
+	<forestry:broken_bronze_shovel>,
+	<forestry:bronze_pickaxe>,
+	<forestry:bronze_shovel>,
+	<forestry:apatite>,
+	<forestry:ingot_bronze>,
+	<forestry:ingot_tin>,
+	<forestry:ingot_copper>,
+	<forestry:resource_storage:1>,
+	<forestry:resource_storage:2>,
+	<forestry:resource_storage:3>,
+	<forestry:wrench>
+] as IItemStack[];
+for item in ItemsToRemoveFOJEI{
+    mods.jei.JEI.removeAndHide(item);
+}
 
 //Удаление рецептов
-mods.jei.JEI.removeAndHide(<forestry:gear_bronze>);
-mods.jei.JEI.removeAndHide(<forestry:gear_copper>);
-mods.jei.JEI.removeAndHide(<forestry:gear_tin>);
-recipes.remove(<forestry:sturdy_machine>);
-recipes.remove(<forestry:portable_alyzer>);
-recipes.remove(<forestry:analyzer>);
-recipes.remove(<forestry:ffarm>.withTag({FarmBlock: 0}));
-recipes.remove(<forestry:ffarm>.withTag({FarmBlock: 2}));
-recipes.remove(<forestry:ffarm>.withTag({FarmBlock: 3}));
-recipes.remove(<forestry:ffarm>.withTag({FarmBlock: 6}));
-recipes.remove(<forestry:ffarm>.withTag({FarmBlock: 8}));
-recipes.remove(<forestry:ffarm>.withTag({FarmBlock: 9}));
-recipes.remove(<forestry:ffarm>.withTag({FarmBlock: 10}));
-recipes.remove(<forestry:habitat_locator>);
-recipes.remove(<forestry:frame_untreated>);
-recipes.remove(<forestry:frame_impregnated>);
-recipes.remove(<forestry:smoker>);
-recipes.remove(<forestry:raintank>);
-recipes.remove(<forestry:habitat_screen>);
-recipes.remove(<forestry:habitat_former>);
-recipes.remove(<forestry:database>);
-recipes.remove(<forestry:crafting_material:3>);
-recipes.remove(<forestry:alveary.hygro>);
-recipes.remove(<forestry:alveary.heater>);
-recipes.remove(<forestry:crafting_material:6>);
-recipes.remove(<forestry:alveary.fan>);
-recipes.remove(<forestry:alveary.swarmer>);
-recipes.remove(<forestry:alveary.sieve>);
-recipes.remove(<forestry:genetic_filter>);
-recipes.remove(<forestry:naturalist_helmet>);
-recipes.remove(<forestry:ingot_bronze>);
-recipes.remove(<forestry:ingot_tin>);
-recipes.remove(<forestry:ingot_copper>);
-recipes.remove(<forestry:resource_storage:1>);
-recipes.remove(<forestry:resource_storage:2>);
-recipes.remove(<forestry:resource_storage:3>);
+global ItemsToRemoveFO as IItemStack[] = [
+	<forestry:sturdy_machine>,
+	<forestry:portable_alyzer>,
+	<forestry:analyzer>,
+	<forestry:habitat_locator>,
+	<forestry:frame_untreated>,
+	<forestry:frame_impregnated>,
+	<forestry:smoker>,
+	<forestry:raintank>,
+	<forestry:habitat_screen>,
+	<forestry:habitat_former>,
+	<forestry:database>,
+	<forestry:crafting_material:3>,
+	<forestry:alveary.hygro>,
+	<forestry:alveary.heater>,
+	<forestry:crafting_material:6>,
+	<forestry:alveary.fan>,
+	<forestry:alveary.swarmer>,
+	<forestry:alveary.sieve>,
+	<forestry:genetic_filter>,
+	<forestry:naturalist_helmet>,
+	<forestry:fabricator>
+] as IItemStack[];
+for item in ItemsToRemoveFO{
+    recipes.remove(item);
+}
+
+//Удаление рецептов
+recipes.removeByRecipeName("forestry:farm_basic_brick_stone");
+recipes.removeByRecipeName("forestry:farm_basic_brick_mossy");
+recipes.removeByRecipeName("forestry:farm_basic_brick_cracked");
+recipes.removeByRecipeName("forestry:farm_basic_brick");
+recipes.removeByRecipeName("forestry:farm_basic_sandstone_smooth");
+recipes.removeByRecipeName("forestry:farm_basic_sandstone_chiseled");
+recipes.removeByRecipeName("forestry:farm_basic_brick_nether");
+recipes.removeByRecipeName("forestry:farm_basic_brick_chiseled");
+recipes.removeByRecipeName("forestry:farm_basic_quartz");
+recipes.removeByRecipeName("forestry:farm_basic_quartz_chiseled");
+recipes.removeByRecipeName("forestry:farm_basic_quartz_lines");
 
 //Создание рецептов
 //Создание блоков меда Forestry через компрессор
@@ -72,23 +84,17 @@ assembler.recipeBuilder().inputs(<ore:plateBronze>*4, <ore:plateEmerald>*2, <ore
 //Веревочка
 recipes.addShapeless (<forestry:crafting_material:2>*3, [<ore:string>]);
 
-//Обычный корпус машины
+//Прочный корпус
 recipes.addShaped(<forestry:sturdy_machine>, 
-[[platebronze,screwsteel,platebronze],
- [screwsteel,null,screwsteel],
- [platebronze,screwsteel,platebronze]]);
-
-//Обычный корпус машины 2
-recipes.addShaped(<forestry:sturdy_machine>, 
-[[platebrass,screwsteel,platebrass],
- [screwsteel,null,screwsteel],
- [platebrass,screwsteel,platebrass]]);
+[[<ore:plateBrass>,<ore:screwSteel>,<ore:plateBrass>],
+ [<ore:screwSteel>,null,<ore:screwSteel>],
+ [<ore:plateBrass>,<ore:screwSteel>,<ore:plateBrass>]]);
 
 //Фабрикатор
 recipes.addShaped(<forestry:fabricator>, 
-[[ingotgold,glass,ingotgold],
- [glass,<forestry:sturdy_machine>,glass],
- [ingotgold,ingotaluminium,ingotgold]]);
+[[<ore:plateGold>, <ore:blockGlass>, <ore:plateGold>],
+ [<ore:blockGlass>, <forestry:sturdy_machine>, <ore:blockGlass>],
+ [<ore:plateGold>, <ore:cableGtSingleAluminium>, <ore:plateGold>]]);
 
 //Портативный анализатор
 recipes.addShaped(<forestry:portable_alyzer>,
@@ -163,97 +169,97 @@ recipes.addShaped(<forestry:habitat_locator>,
  [<ore:plateCopper>, <gregtech:meta_item_1:32691>, <ore:plateCopper>],
  [null, <ore:plateCopper>, null]]);
 
-//
+//Рамка простая
 recipes.addShaped(<forestry:frame_untreated>,
 [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
  [<ore:stickWood>, <ore:string>, <ore:stickWood>],
  [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
-//
+//Рамка укрепленная
 recipes.addShaped(<forestry:frame_impregnated>,
 [[<forestry:oak_stick>, <forestry:oak_stick>, <forestry:oak_stick>],
  [<forestry:oak_stick>, <ore:string>, <forestry:oak_stick>],
  [<forestry:oak_stick>, <forestry:oak_stick>, <forestry:oak_stick>]]);
 
-//
+//Супер ткань
 recipes.addShaped(<forestry:crafting_material:3>,
-[[<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>],
- [<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>],
+[[<ore:string>, <minecraft:wool>, <ore:string>],
+ [<ore:string>, <minecraft:wool>, <ore:string>],
  [null, null, null]]);
 
-//
+//Дымитель
 recipes.addShaped(<forestry:smoker>,
 [[<ore:leather>, <ore:stickWood>, <ore:plateTin>],
  [<ore:leather>, <minecraft:flint_and_steel>, <ore:plateTin>],
  [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]]);
 
-//
+//Экран окружающей среды
 recipes.addShaped(<forestry:habitat_screen>,
 [[null, <gregtech:meta_item_1:32690>, null],
  [<ore:plateTin>, <ore:circuitBasic>, <ore:plateTin>],
  [null, <ore:plateTin>, null]]);
 
-//
+//Бочка под дождь
 recipes.addShaped(<forestry:raintank>,
 [[<ore:plateSteel>, <ore:paneGlass>, <ore:plateSteel>],
  [<ore:plateSteel>, <gregtech:machine:813>, <ore:plateSteel>],
  [<ore:plateSteel>, <ore:paneGlass>, <ore:plateSteel>]]);
 
-//
+//Создаватель окружающей среды
 recipes.addShaped(<forestry:habitat_former>,
 [[<ore:paneGlass>, <ore:cableGtOctalRedAlloy>, <ore:paneGlass>],
  [<forestry:thermionic_tubes:6>, <forestry:sturdy_machine>, <forestry:thermionic_tubes:6>],
  [<ore:gearBronze>, <ore:circuitGood>, <ore:gearBronze>]]);
 
-//
+//База данных
 recipes.addShaped(<forestry:database>,
 [[<ore:plateCopper>, <forestry:portable_alyzer>, <ore:plateCopper>],
  [<ore:ForestryChests>, <forestry:sturdy_machine>, <ore:ForestryChests>],
  [<ore:plankWood>, <forestry:royal_jelly>, <ore:plankWood>]]);
 
-//
+//Куча палок укрепленных
 recipes.addShaped(<forestry:crafting_material:6>,
 [[<forestry:oak_stick>, <forestry:oak_stick>, <forestry:oak_stick>],
  [<forestry:oak_stick>, <forestry:oak_stick>, <forestry:oak_stick>],
  [null, null, null]]);
 
-//
+//Улучшения для пасеки 1
 recipes.addShaped(<forestry:alveary.hygro>,
 [[<ore:paneGlass>, <ore:plateSteel>, <ore:paneGlass>],
  [<ore:paneGlass>, <forestry:alveary.plain>, <ore:paneGlass>],
  [<ore:paneGlass>, <ore:plateSteel>, <ore:paneGlass>]]);
 
-//
+//Улучшения для пасеки 2
 recipes.addShaped(<forestry:alveary.heater>,
 [[<forestry:thermionic_tubes:4>, <ore:plateSteel>, <forestry:thermionic_tubes:4>],
  [null, <forestry:alveary.plain>, null],
  [<ore:stone>, <ore:stone>, <ore:stone>]]);
 
-//
+//Улучшения для пасеки 3
 recipes.addShaped(<forestry:alveary.fan>,
 [[<ore:plateSteel>, null, <ore:plateSteel>],
  [null, <forestry:alveary.plain>, null],
  [<ore:plateSteel>, <forestry:thermionic_tubes:4>, <ore:plateSteel>]]);
 
-//
+//Улучшения для пасеки 4
 recipes.addShaped(<forestry:alveary.swarmer>,
 [[<forestry:thermionic_tubes:5>, <ore:plateGold>, <forestry:thermionic_tubes:5>],
  [null, <forestry:alveary.plain>, null],
  [<forestry:thermionic_tubes:5>, <ore:plateGold>, <forestry:thermionic_tubes:5>]]);
 
-//
+//Улучшения для пасеки 5
 recipes.addShaped(<forestry:alveary.sieve>,
 [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
  [null, <forestry:alveary.plain>, null],
  [<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>]]);
 
-//
+//Фильтр по геному
 recipes.addShaped(<forestry:genetic_filter>,
 [[<ore:plankWood>, <ore:circuitBasic>, <ore:plankWood>],
  [<forestry:propolis>, <ore:paneGlass>, <forestry:propolis>],
  [<ore:gearBronze>, <ore:gemDiamond>, <ore:gearBronze>]]);
 
-//
+//Шлем натуралиста
 recipes.addShaped(<forestry:naturalist_helmet>,
 [[null, <ore:plateCopper>, null],
  [<ore:ForestryPropolis>, null, <ore:ForestryPropolis>],

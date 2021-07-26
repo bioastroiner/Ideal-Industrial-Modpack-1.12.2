@@ -6,33 +6,33 @@ This file is regenerated every time minecraft is ran to handle any addons added 
 
 | ### PLANETS ###
 |------------------
-| Overworld                     0
-| Mercury                     -13
-| Jupiter                     -15
-| Saturn                      -16
-| Uranus                      -17
-| Neptune                     -18
-| Pluto                       -19
-| Ceres                       -20
-| Eris                        -21
-| Kepler 22b                  -22
-| Mars                        -29
-| Asteroids                   -30
-| Venus                       -31
+| Земля                         0
+| Меркурий                    -13
+| Юпитер                      -15
+| Сатурн                      -16
+| Уран                        -17
+| Нептун                      -18
+| Плутон                      -19
+| Церера                      -20
+| Эрида                       -21
+| Кеплер-22 b                 -22
+| Марс                        -29
+| Астероиды                   -30
+| Венера                      -31
 
 
 | ### MOONS ###
 |------------------
-| Moon                        -28
-| Io                        -1500
-| Europa                    -1501
-| Phobos                    -1502
-| Deimos                    -1503
-| Triton                    -1504
-| Callisto                  -1505
-| Ganymede                  -1506
-| Rhea                      -1507
-| Titan                     -1508
-| Oberon                    -1509
-| Titania                   -1510
-| Iapetus                   -1511
+| Луна                        -28
+| Ио                        -1500
+| Европа                    -1501
+| Фобос                     -1502
+| Феймос                    -1503
+| Тритон                    -1504
+| Каллисто                  -1505
+| Ганимед                   -1506
+| Рея                       -1507
+| Титан                     -1508
+| Оберон                    -1509
+| Титания                   -1510
+| Япет                      -1511

@@ -1,7 +1,5 @@
 import mods.inworldcrafting.FluidToItem;
 
-//Очистить пыль теперь можно не только бросив ее в котел
-
 //При бросании цемента в воду получается бетон
 //Обычная вода
 FluidToItem.transform(<minecraft:concrete>, <liquid:water>, [<minecraft:concrete_powder>]);
