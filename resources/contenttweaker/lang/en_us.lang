@@ -4,6 +4,13 @@ item.contenttweaker.part_plate_advanced.name=Advanced Plating
 item.contenttweaker.part_plate_du.name=DU Plating
 item.contenttweaker.part_plate_elite.name=Elite Plating
 
+item.contenttweaker.hotdraconiumingot.name=Draconium (Hot)
+item.contenttweaker.hotawakeneddraconiumingot.name=Awakened Draconium (Hot)
+item.contenttweaker.crusheddraconium.name=Draconium (Crushed Ore)
+item.contenttweaker.crushedcentrifugeddraconium.name=Draconium (Centrifuged Ore)
+fluid.draconium=Draconium
+fluid.awakened_draconium=Awakened Draconium
+
 #Quests#
 #Translation by SpeeeDCraft (by the power of Google Translate)
 ##################################################################################################################################

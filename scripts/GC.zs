@@ -3,7 +3,7 @@ import mods.gregtech.recipe.RecipeMap;
 
 //Переменные
 val assembler as RecipeMap = RecipeMap.getByName("assembler");
-val blast_furnace = mods.gregtech.recipe.RecipeMap.getByName("blast_furnace");
+val blast_furnace as RecipeMap = RecipeMap.getByName("blast_furnace");
 val compressor as RecipeMap = RecipeMap.getByName("compressor");
 
 //Удаление+скрытие рецептов JEI

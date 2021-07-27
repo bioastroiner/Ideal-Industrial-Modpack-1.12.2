@@ -3,6 +3,12 @@ item.contenttweaker.part_plate_basic.name=Базовая Пластина
 item.contenttweaker.part_plate_advanced.name=Улучшенная Пластина
 item.contenttweaker.part_plate_du.name=ДУ Пластина
 item.contenttweaker.part_plate_elite.name=Совершенная Пластина
+item.contenttweaker.hotdraconiumingot.name=Драконий (Горячий)
+item.contenttweaker.hotawakeneddraconiumingot.name=Пробужденный драконий (Горячий)
+item.contenttweaker.crusheddraconium.name=Драконий (Дробленная руда)
+item.contenttweaker.crushedcentrifugeddraconium.name=Драконий (Центрифугированная руда)
+fluid.draconium=Драконий
+fluid.awakened_draconium=Пробужденный драконий
 
 #Quests#
 #Translate by SpeeeDCraft
