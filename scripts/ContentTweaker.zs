@@ -32,12 +32,12 @@ VanillaFactory.createItem("crushedcentrifugeddraconium").register();
 
 //Жидкости
 var liquid_draconium = VanillaFactory.createFluid("draconium", Color.fromHex("3C1551"));
-liquid_draconium.density = 5000;
+liquid_draconium.density = 500;
 liquid_draconium.temperature = 9700;
 liquid_draconium.viscosity = 250;
 liquid_draconium.register();
 var liquid_awakened_draconium = VanillaFactory.createFluid("awakened_draconium", Color.fromHex("FF921C"));
-liquid_awakened_draconium.density = 5000;
+liquid_awakened_draconium.density = 500;
 liquid_awakened_draconium.temperature = 15000;
 liquid_awakened_draconium.viscosity = 250;
 liquid_awakened_draconium.register();

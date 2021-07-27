@@ -87,7 +87,7 @@ fluid_solidifier.recipeBuilder()
 	.EUt(120)
 	.buildAndRegister();
 
-//Охлаждение слитка
+//Охлаждение дракониум слитка
 vacuum_freezer.recipeBuilder()
 	.inputs(<contenttweaker:hotdraconiumingot>)
 	.fluidInputs([<liquid:supercooled_cryotheum> * 288])
@@ -99,16 +99,32 @@ vacuum_freezer.recipeBuilder()
 	
 //Пробужденный драконий
 adv_fusion.recipeBuilder()
-	.fluidInputs([<liquid:water> * 2])
-	.fluidOutputs(<liquid:water>*1)
-	.property("coil_tier", 1)
-	.property("eu_to_start", 2570000000)
+	.fluidInputs([<liquid:draconium> * 10, <liquid:plasma.neon> * 1, <liquid:helium> * 1500])
+	.fluidOutputs([<liquid:awakened_draconium> * 5, <liquid:plasma.helium> * 1])
+	.property("coilTier", 1)
+	.property("euReturn", 250000)
 	.duration(100)
 	.EUt(2000000)
 	.buildAndRegister();
-	
-	
-	
+
+//Отливка в слиток пробужденного дракониума
+fluid_solidifier.recipeBuilder()
+	.notConsumable(<gregtech:meta_item_1:32306>)
+	.fluidInputs([<liquid:awakened_draconium> * 144])
+	.outputs(<contenttweaker:hotawakeneddraconiumingot>)
+	.duration(240)
+	.EUt(980)
+	.buildAndRegister();
+
+//Охлаждение пробужденного дракониум слитка
+vacuum_freezer.recipeBuilder()
+	.inputs(<contenttweaker:hotawakeneddraconiumingot>)
+	.fluidInputs([<liquid:supercooled_cryotheum> * 8472])
+	.fluidOutputs(<liquid:water>*1288)
+	.outputs(<draconicevolution:draconic_ingot>)
+	.duration(380)
+	.EUt(1280)
+	.buildAndRegister();
 	
 	
 	
