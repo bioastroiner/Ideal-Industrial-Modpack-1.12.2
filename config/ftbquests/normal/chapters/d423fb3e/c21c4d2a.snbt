@@ -96,7 +96,6 @@
 	rewards: [{
 		uid: "83c958fc",
 		type: "item",
-		title: "I swear this is No Magic!",
 		icon: "netherex:withered_amedian_sword",
 		auto: "enabled",
 		item: {

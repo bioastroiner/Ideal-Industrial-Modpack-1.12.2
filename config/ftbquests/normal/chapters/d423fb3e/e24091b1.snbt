@@ -16,7 +16,7 @@
 	rewards: [{
 		uid: "27638c9e",
 		type: "item",
-		title: "May This Brings you Luck!",
+		title: "{tfg.quest.primitive.start.reward.doge}",
 		auto: "enabled",
 		item: {
 			id: "gregtech:meta_item_1",

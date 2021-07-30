@@ -1,7 +1,11 @@
 {
-	title: "Black Wool Carpetry",
+	title: "{tfg.quests.primitive.wool.title}",
 	x: -11.5d,
 	y: 0.5d,
+	description: "{tfg.quests.primitive.wool.subtitle}",
+	text: [
+		"{tfg.quests.primitive.wool.description}"
+	],
 	dependencies: [
 		"a85d99d5"
 	],
