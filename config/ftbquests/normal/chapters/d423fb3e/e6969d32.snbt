@@ -1,0 +1,21 @@
+{
+	title: "{tfg.quests.steam.circuitULV.title}",
+	x: 2.0d,
+	y: -11.0d,
+	description: "{tfg.quests.steam.circuitbaseULV.subtitle}",
+	text: [
+		"{tfg.quests.steam.circuitbaseULV.description}"
+	],
+	dependencies: [
+		"2d444c7e",
+		"9ac7f9e4"
+	],
+	tasks: [{
+		uid: "19d867ba",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32450"
+		}],
+		count: 4L
+	}]
+}

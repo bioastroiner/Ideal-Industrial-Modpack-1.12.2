@@ -11,6 +11,13 @@
 		type: "item",
 		items: [{
 			item: "forestry:beeswax"
-		}]
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d849ceb9",
+		type: "item",
+		item: "forestry:capsule",
+		count: 8
 	}]
 }

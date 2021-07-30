@@ -1,9 +1,10 @@
 {
-	x: -5.0d,
+	x: -9.0d,
 	y: -9.0d,
 	description: "{tfg.quests.steam.tinrotor.subtitle}",
+	hide_dependency_lines: true,
 	dependencies: [
-		"738b98f0"
+		"e9377e25"
 	],
 	tasks: [{
 		uid: "78b150d6",

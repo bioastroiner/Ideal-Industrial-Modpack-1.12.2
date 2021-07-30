@@ -1,0 +1,30 @@
+{
+	title: "{tfg.quests.steam.circuitboard.title}",
+	x: -5.5d,
+	y: -10.0d,
+	description: "{tfg.quests.steam.circuitboard.subtitle}",
+	text: [
+		"{tfg.quests.steam.circuitboard.description}"
+	],
+	dependencies: [
+		"b033a8ff"
+	],
+	tasks: [{
+		uid: "a1eaad5e",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 32029"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d3ea15bd",
+		type: "item",
+		item: "gtadditions:ga_meta_item 1 32029"
+	},
+	{
+		uid: "173e6fff",
+		type: "item",
+		item: "harvestcraft:energydrinkitem"
+	}]
+}

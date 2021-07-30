@@ -1,8 +1,12 @@
 {
+	title: "{tfg.quests.steam.sachok.title}",
 	x: -10.0d,
 	y: 0.5d,
 	shape: "diamond",
 	description: "{tfg.quests.steam.sachok.subtitle}",
+	text: [
+		"{tfg.quests.steam.sachok.description}"
+	],
 	dependencies: [
 		"d9827d71"
 	],
@@ -26,5 +30,11 @@
 			}
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bbfbb7b8",
+		type: "item",
+		item: "harvestcraft:butteritem",
+		count: 32
 	}]
 }

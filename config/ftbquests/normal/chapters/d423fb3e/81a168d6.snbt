@@ -1,8 +1,8 @@
 {
 	title: "{tfg.quests.steam.books.title}",
 	icon: "rftools:rftools_shape_manual",
-	x: -3.0d,
-	y: -10.5d,
+	x: -13.0d,
+	y: -10.0d,
 	description: "{tfg.quests.steam.books.subtitle}",
 	can_repeat: true,
 	dependencies: [

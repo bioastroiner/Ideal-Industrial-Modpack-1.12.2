@@ -3,6 +3,9 @@
 	y: 0.0d,
 	shape: "circle",
 	description: "{tfg.quests.steam.bronzebrickedhull.subtitle}",
+	text: [
+		"{tfg.quests.steam.bronzebrickedhull.description}"
+	],
 	dependencies: [
 		"7d03eeb7"
 	],

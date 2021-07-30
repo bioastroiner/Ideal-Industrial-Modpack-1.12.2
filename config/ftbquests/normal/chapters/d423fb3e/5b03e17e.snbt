@@ -2,7 +2,11 @@
 	title: "{tfg.quests.steam.bee.title}",
 	x: -10.0d,
 	y: 1.5d,
+	shape: "hexagon",
 	description: "{tfg.quests.steam.bee.subtitle}",
+	text: [
+		"{tfg.quests.steam.bee.description}"
+	],
 	dependencies: [
 		"7dfaafb2"
 	],
@@ -165,5 +169,10 @@
 			}
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95c1abde",
+		type: "item",
+		item: "forestry:bee_house"
 	}]
 }

@@ -12,5 +12,26 @@
 		items: [{
 			item: "forestry:honey_drop"
 		}]
+	},
+	{
+		uid: "dd4e24d0",
+		type: "item",
+		items: [{
+			item: "forestry:honeyed_slice"
+		}]
+	}],
+	rewards: [{
+		uid: "28a1bf5a",
+		type: "item",
+		item: {
+			id: "binniecore:glass",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "binnie.beer.wheat",
+					Amount: 1000
+				}
+			}
+		}
 	}]
 }

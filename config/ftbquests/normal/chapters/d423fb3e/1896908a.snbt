@@ -1,0 +1,70 @@
+{
+	title: "{tfg.quests.steam.silver.title}",
+	x: -0.5d,
+	y: 2.0d,
+	description: "{tfg.quests.steam.silver.subtitle}",
+	text: [
+		"{tfg.quests.steam.silver.description}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b6875946"
+	],
+	tasks: [{
+		uid: "1f909ba0",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreSilver"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreSilver"
+				}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "74dc5959",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreLead"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreLead"
+				}
+			}
+		}],
+		count: 16L
+	},
+	{
+		uid: "0afe0902",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreGalena"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreGalena"
+				}
+			}
+		}],
+		count: 16L
+	}]
+}

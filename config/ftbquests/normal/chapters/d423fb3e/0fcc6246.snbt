@@ -1,11 +1,12 @@
 {
-	title: "&eNetheria",
+	title: "&e{tfg.quests.steam.nether.title}",
 	icon: "minecraft:nether_brick",
-	x: -7.5d,
+	x: 2.5d,
 	y: 3.5d,
-	description: "Be aware of Ghasts!! and juggernuts...",
+	shape: "rsquare",
+	description: "{tfg.quests.steam.nether.subtitle}",
 	text: [
-		""
+		"{tfg.quests.steam.nether.description}"
 	],
 	dependencies: [
 		"901cdf48"

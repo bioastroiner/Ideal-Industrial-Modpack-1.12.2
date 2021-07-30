@@ -1,5 +1,5 @@
 {
-	x: -5.0d,
+	x: -4.0d,
 	y: -2.5d,
 	description: "{tfg.quests.steam.bronzepump.subtitle}",
 	dependencies: [
@@ -11,5 +11,19 @@
 		items: [{
 			item: "gregtech:machine 1 2232"
 		}]
+	},
+	{
+		uid: "2ee63f8d",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe 1 2095"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "8b4e2353",
+		type: "item",
+		item: "gregtech:fluid_pipe 1 2095",
+		count: 8
 	}]
 }

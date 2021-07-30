@@ -1,0 +1,48 @@
+{
+	title: "{tfg.quests.primitive.chickfarm.title}",
+	x: -13.0d,
+	y: 6.5d,
+	description: "{tfg.quests.primitive.chickfarm.subtitle}",
+	text: [
+		"{tfg.quests.primitive.chickfarm.description}"
+	],
+	dependencies: [
+		"a85d99d5"
+	],
+	tasks: [{
+		uid: "b0cf3188",
+		type: "item",
+		items: [{
+			item: "minecraft:egg"
+		}],
+		count: 64L
+	},
+	{
+		uid: "858e7cac",
+		type: "item",
+		items: [{
+			item: "minecraft:chicken"
+		}],
+		count: 64L
+	},
+	{
+		uid: "d9f6fc6a",
+		type: "item",
+		items: [{
+			item: "minecraft:feather"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "111acd01",
+		type: "item",
+		item: "harvestcraft:deviledeggitem",
+		random_bonus: 5
+	},
+	{
+		uid: "76ac2417",
+		type: "item",
+		item: "harvestcraft:friedchickenitem",
+		random_bonus: 5
+	}]
+}

@@ -34,7 +34,18 @@
 		uid: "5488c2f5",
 		type: "item",
 		items: [{
-			item: "minecraft:wool"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockWool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockWool"
+				}
+			}
 		}],
 		count: 8L
 	},
@@ -66,5 +77,10 @@
 				RepairCost: 0
 			}
 		}
+	},
+	{
+		uid: "c1c7579f",
+		type: "item",
+		item: "minecraft:dye"
 	}]
 }

@@ -1,0 +1,48 @@
+{
+	title: "{tfg.quests.steam.wires.title}",
+	x: -7.0d,
+	y: -9.0d,
+	description: "{tfg.quests.steam.wires.subtitle}",
+	text: [
+		"{tfg.quests.steam.wires.description}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e9377e25"
+	],
+	tasks: [{
+		uid: "5a31620e",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolWireCutter"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolWireCutter"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9feacb3b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12071"
+		}],
+		count: 8L
+	},
+	{
+		uid: "ca49271a",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 71"
+		}],
+		count: 8L
+	}]
+}

@@ -1,9 +1,10 @@
 {
-	x: -7.0d,
+	x: -10.5d,
 	y: -9.0d,
 	description: "{tfg.quests.steam.lvmotor.subtitle}",
 	dependencies: [
-		"2295bfb5"
+		"2295bfb5",
+		"7026aa9d"
 	],
 	tasks: [{
 		uid: "45ecf83b",

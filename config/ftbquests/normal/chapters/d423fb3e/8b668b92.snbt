@@ -1,0 +1,36 @@
+{
+	title: "{tfg.quests.primitive.forestrybackpack.title}",
+	x: -13.0d,
+	y: 3.5d,
+	description: "{tfg.quests.primitive.forestrybackpack.subtitle}",
+	text: [
+		"{tfg.quests.primitive.forestrybackpack.description}"
+	],
+	dependencies: [
+		"a85d99d5"
+	],
+	tasks: [{
+		uid: "62c979ba",
+		type: "item",
+		items: [{
+			item: "forestry:digger_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b3010e63",
+		type: "item",
+		items: [{
+			item: "forestry:miner_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "edf26d82",
+		type: "item",
+		item: "improvedbackpacks:tanned_leather",
+		count: 8
+	}]
+}

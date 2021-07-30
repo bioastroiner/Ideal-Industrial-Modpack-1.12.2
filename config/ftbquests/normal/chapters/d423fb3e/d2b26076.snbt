@@ -12,5 +12,10 @@
 		items: [{
 			item: "forestry:apiary"
 		}]
+	}],
+	rewards: [{
+		uid: "68b9e6b7",
+		type: "item",
+		item: "forestry:bee_chest"
 	}]
 }

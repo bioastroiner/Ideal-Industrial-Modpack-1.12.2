@@ -15,6 +15,11 @@
 		items: [{
 			item: "gregtech:meta_item_1 1 12033"
 		}],
-		count: 4L
+		count: 16L
+	}],
+	rewards: [{
+		uid: "41e59619",
+		type: "item",
+		item: "gregtech:machine 1 802"
 	}]
 }

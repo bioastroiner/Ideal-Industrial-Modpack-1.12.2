@@ -1,14 +1,15 @@
 {
-	title: "&dFlint & Steel",
-	x: -7.5d,
-	y: 2.0d,
-	description: "Yes It needs Steel... Finally",
+	x: -4.0d,
+	y: 3.5d,
+	shape: "gear",
+	description: "{tfg.quests.steam.flintasteel.subtitle}",
 	text: [
-		"Now you can go to the Nether, but a suprise awaits you..."
+		"{tfg.quests.steam.flintasteel.description}"
 	],
 	dependencies: [
 		"13584144"
 	],
+	size: 1.2d,
 	tasks: [{
 		uid: "9999dd34",
 		type: "item",
@@ -17,5 +18,29 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "0944eace",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "dee1701e",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 4
+	},
+	{
+		uid: "af662b26",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:fire_resistance"
+			}
+		}
 	}]
 }

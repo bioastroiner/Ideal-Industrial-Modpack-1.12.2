@@ -1,0 +1,34 @@
+{
+	title: "{tfg.quests.primitive.stringfarm.title}",
+	x: -14.5d,
+	y: 2.0d,
+	description: "{tfg.quests.primitive.stringfarm.subtitle}",
+	text: [
+		"{tfg.quests.primitive.stringfarm.description}"
+	],
+	dependencies: [
+		"7b2a72fa"
+	],
+	tasks: [{
+		uid: "313c1b13",
+		type: "item",
+		items: [{
+			item: "harvestcraft:spiderweb_sapling"
+		}],
+		count: 4L
+	},
+	{
+		uid: "38e10ed2",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "8710bfeb",
+		type: "item",
+		item: "harvestcraft:spiderweb_sapling",
+		count: 8
+	}]
+}

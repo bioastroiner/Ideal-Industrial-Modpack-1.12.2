@@ -2,13 +2,22 @@
 	x: 2.5d,
 	y: 0.0d,
 	dependencies: [
-		"badc22e0"
+		"badc22e0",
+		"278e5d30",
+		"0fcc6246"
 	],
 	tasks: [{
 		uid: "9f847863",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 10152"
-		}]
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "08bd4a12",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12152",
+		count: 4
 	}]
 }

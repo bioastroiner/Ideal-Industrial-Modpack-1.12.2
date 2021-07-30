@@ -14,5 +14,11 @@
 			item: "gregtech:meta_item_1 1 10095"
 		}],
 		count: 32L
+	}],
+	rewards: [{
+		uid: "a144050f",
+		type: "item",
+		item: "minecraft:brick_block",
+		count: 8
 	}]
 }

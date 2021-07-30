@@ -1,7 +1,11 @@
 {
+	title: "{tfg.quests.steam.analyzator.title}",
 	x: -10.0d,
 	y: 2.5d,
 	description: "{tfg.quests.steam.analyzator.subtitle}",
+	text: [
+		"{tfg.quests.steam.analyzator.description}"
+	],
 	dependencies: [
 		"5b03e17e"
 	],
@@ -14,5 +18,11 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "babe4eb0",
+		type: "item",
+		item: "forestry:honey_drop",
+		count: 6
 	}]
 }

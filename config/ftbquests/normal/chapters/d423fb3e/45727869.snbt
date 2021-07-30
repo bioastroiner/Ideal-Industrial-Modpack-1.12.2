@@ -1,0 +1,35 @@
+{
+	icon: {
+		id: "aeadditions:pattern.fluid",
+		tag: {
+			Fluid: {
+				FluidName: "steam",
+				Amount: 1000
+			}
+		}
+	},
+	x: -8.75d,
+	y: -16.25d,
+	shape: "heart",
+	text: [
+		"Shhhh!!"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"22185601"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "839b10f7",
+		type: "fluid",
+		fluid: "steam",
+		amount: 256000
+	}],
+	rewards: [{
+		uid: "5a70f453",
+		type: "item",
+		item: "gregtech:meta_item_2 1 25111",
+		count: 8
+	}]
+}

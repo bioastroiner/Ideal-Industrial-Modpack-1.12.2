@@ -1,6 +1,11 @@
 {
-	x: -6.0d,
+	title: "{tfg.quests.steam.pbf.title}",
+	x: -6.5d,
 	y: 0.5d,
+	description: "{tfg.quests.steam.pbf.title}",
+	text: [
+		"{tfg.quests.steam.pbf.title}"
+	],
 	dependencies: [
 		"8fdd423e"
 	],

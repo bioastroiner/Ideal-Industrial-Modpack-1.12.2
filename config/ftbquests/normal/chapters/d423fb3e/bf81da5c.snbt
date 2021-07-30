@@ -1,8 +1,11 @@
 {
-	x: -2.0d,
-	y: 0.0d,
+	x: -3.0d,
+	y: 2.0d,
 	shape: "circle",
 	description: "{tfg.quests.steam.bronzeboiler.subtitle}",
+	text: [
+		"{tfg.quests.steam.bronzeboiler.description}"
+	],
 	dependencies: [
 		"505c5aff"
 	],
@@ -14,9 +17,6 @@
 		},
 		{
 			item: "gregtech:machine 1 5"
-		},
-		{
-			item: "gregtech:machine 1 3"
 		}]
 	}]
 }

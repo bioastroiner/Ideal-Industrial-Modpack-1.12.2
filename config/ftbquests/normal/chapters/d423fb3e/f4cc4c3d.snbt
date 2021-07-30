@@ -1,0 +1,45 @@
+{
+	title: "{tfg.quests.steam.gold.title}",
+	x: -14.5d,
+	y: -11.5d,
+	description: "{tfg.quests.steam.gold.title}",
+	text: [
+		"{tfg.quests.steam.gold.title}"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b6875946"
+	],
+	tasks: [{
+		uid: "b78ffd00",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any orePreciousMetal"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "orePreciousMetal"
+				}
+			}
+		}],
+		count: 32L
+	},
+	{
+		uid: "b448d9e8",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "455d5ace",
+		type: "item",
+		item: "minecraft:golden_apple"
+	}]
+}

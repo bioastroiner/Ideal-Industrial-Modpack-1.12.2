@@ -1,10 +1,14 @@
 {
-	x: -1.0d,
-	y: -1.5d,
+	title: "{tfg.quests.steam.bronzeextractor.title}",
+	x: 1.0d,
+	y: -1.0d,
 	shape: "circle",
 	description: "{tfg.quests.steam.bronzeextractor.subtitle}",
+	text: [
+		"{tfg.quests.steam.bronzeextractor.description}"
+	],
 	dependencies: [
-		"81574e53"
+		"5347bf68"
 	],
 	tasks: [{
 		uid: "9b3347b1",
@@ -12,5 +16,13 @@
 		items: [{
 			item: "gregtech:machine 1 7"
 		}]
+	},
+	{
+		uid: "11a60859",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2153"
+		}],
+		count: 32L
 	}]
 }

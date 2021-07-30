@@ -1,6 +1,11 @@
 {
-	x: -4.5d,
+	title: "{tfg.quests.steam.treatedwood.title}",
+	x: -7.5d,
 	y: 2.0d,
+	description: "{tfg.quests.steam.treatedwood.subtitle}",
+	text: [
+		"{tfg.quests.steam.treatedwood.description}"
+	],
 	dependencies: [
 		"57208fec"
 	],

@@ -1,11 +1,19 @@
 {
 	title: "{tfg.quests.steam.basiccircuit.title}",
-	x: -9.0d,
-	y: -9.0d,
+	x: -7.0d,
+	y: -11.0d,
+	shape: "gear",
 	description: "{tfg.quests.steam.basiccircuit.subtitle}",
-	dependencies: [
-		"e23bc585"
+	text: [
+		"{tfg.quests.steam.basiccircuit.description}"
 	],
+	dependencies: [
+		"b5f798b3",
+		"e6969d32",
+		"d6ed697b",
+		"5d18e0d7"
+	],
+	size: 1.4d,
 	tasks: [{
 		uid: "3eb879d5",
 		type: "item",

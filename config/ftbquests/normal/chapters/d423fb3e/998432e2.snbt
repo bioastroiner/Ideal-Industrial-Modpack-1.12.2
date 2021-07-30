@@ -1,0 +1,44 @@
+{
+	title: "{tfg.quests.steam.allsteelmachine.title}",
+	icon: "gregtech:machine 1 2541",
+	x: -7.5d,
+	y: -6.75d,
+	shape: "heart",
+	description: "{tfg.quests.steam.allsteelmachine.subtitle}",
+	text: [
+		"{tfg.quests.steam.allsteelmachine.description}"
+	],
+	dependencies: [
+		"acacc105",
+		"f5723e1b",
+		"44b0e712",
+		"2d33bc29",
+		"707daec8",
+		"6bc19867"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "89ac5440",
+		type: "checkmark",
+		title: "Wizzzzzzzzzzzzz",
+		icon: "gregtech:machine_casing 1 12"
+	}],
+	rewards: [{
+		uid: "ce6a6740",
+		type: "item",
+		item: "harvestcraft:supremepizzaitem",
+		count: 8
+	},
+	{
+		uid: "028b495d",
+		type: "item",
+		item: "harvestcraft:meatfeastpizzaitem",
+		count: 4
+	},
+	{
+		uid: "81631a51",
+		type: "item",
+		item: "harvestcraft:anchovypepperonipizzaitem",
+		count: 8
+	}]
+}

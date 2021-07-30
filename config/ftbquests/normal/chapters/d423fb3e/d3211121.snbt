@@ -1,0 +1,76 @@
+{
+	title: "{tfg.quests.primitive.allforestrybackpack.title}",
+	x: -14.5d,
+	y: 3.5d,
+	description: "{tfg.quests.primitive.allforestrybackpack.subtitle}",
+	text: [
+		"{tfg.quests.primitive.allforestrybackpack.description}"
+	],
+	dependencies: [
+		"8b668b92"
+	],
+	tasks: [{
+		uid: "8db1edcd",
+		type: "item",
+		items: [{
+			item: "forestry:miner_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c4efeec2",
+		type: "item",
+		items: [{
+			item: "forestry:digger_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0677c1ac",
+		type: "item",
+		items: [{
+			item: "forestry:forester_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7d2fd18b",
+		type: "item",
+		items: [{
+			item: "forestry:hunter_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d772faa3",
+		type: "item",
+		items: [{
+			item: "forestry:adventurer_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c2a6f257",
+		type: "item",
+		items: [{
+			item: "forestry:builder_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "32390075",
+		type: "item",
+		item: "forestry:miner_bag_t2"
+	},
+	{
+		uid: "0f6b8f74",
+		type: "item",
+		item: "forestry:digger_bag_t2"
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "{tfg.quests.steam.woodplank.title}",
+	x: 1.0d,
+	y: -5.5d,
+	description: "{tfg.quests.steam.woodplank.subtitle}",
+	text: [
+		"{tfg.quests.steam.woodplank.description}"
+	],
+	dependencies: [
+		"2d444c7e"
+	],
+	tasks: [{
+		uid: "8c5959fb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2196"
+		}],
+		count: 16L
+	},
+	{
+		uid: "f9687a69",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12196"
+		}],
+		count: 16L
+	},
+	{
+		uid: "0aa46e14",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32627"
+		}],
+		count: 32L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "e853fc40",
+		type: "item",
+		item: "gregtech:meta_item_2 1 32443",
+		count: 8
+	}]
+}

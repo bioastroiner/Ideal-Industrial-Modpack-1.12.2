@@ -1,0 +1,28 @@
+{
+	title: "{tfg.quests.primitive.leather.title}",
+	x: -13.0d,
+	y: 5.0d,
+	description: "{tfg.quests.primitive.leather.subtitle}",
+	text: [
+		"{tfg.quests.primitive.leather.description}"
+	],
+	dependencies: [
+		"a85d99d5"
+	],
+	tasks: [{
+		uid: "968d2eb4",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:bound_leather"
+		}],
+		count: 16L
+	},
+	{
+		uid: "7bdb245a",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:tanned_leather"
+		}],
+		count: 16L
+	}]
+}

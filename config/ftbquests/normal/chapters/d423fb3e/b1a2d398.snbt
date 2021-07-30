@@ -1,0 +1,80 @@
+{
+	title: "{tfg.quests.primitive.hardleather.title}",
+	x: -11.5d,
+	y: 2.0d,
+	description: "{tfg.quests.primitive.hardleather.subtitle}",
+	text: [
+		"{tfg.quests.primitive.hardleather.description}"
+	],
+	dependencies: [
+		"a85d99d5"
+	],
+	tasks: [{
+		uid: "4761bcac",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hardenedleatheritem"
+		}],
+		count: 31L
+	},
+	{
+		uid: "adf07677",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hardenedleatherchestitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "35387e4f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hardenedleatherbootsitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4865ac87",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hardenedleatherleggingsitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cfb6312d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:hardenedleatherbootsitem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "06398484",
+		type: "item",
+		item: "harvestcraft:queenbeeitem",
+		random_bonus: 3
+	},
+	{
+		uid: "36a8b6c3",
+		type: "item",
+		item: "harvestcraft:grubitem",
+		count: 6,
+		random_bonus: 10
+	},
+	{
+		uid: "234b5057",
+		type: "item",
+		item: "harvestcraft:apiary"
+	},
+	{
+		uid: "1fed1701",
+		type: "item",
+		item: "harvestcraft:energydrinkitem",
+		count: 16
+	}]
+}

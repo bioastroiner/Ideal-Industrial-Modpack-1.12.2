@@ -30,7 +30,18 @@
 		type: "item",
 		title: "now you know how to get it easy",
 		items: [{
-			item: "minecraft:flint"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemFlint"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gemFlint"
+				}
+			}
 		}],
 		count: 64L
 	}],

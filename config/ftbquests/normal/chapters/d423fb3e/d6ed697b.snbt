@@ -1,9 +1,9 @@
 {
-	x: -1.0d,
-	y: -9.0d,
+	x: -7.0d,
+	y: -10.0d,
 	description: "{tfg.quests.steam.tincable.subtitle}",
 	dependencies: [
-		"b5f798b3"
+		"7026aa9d"
 	],
 	tasks: [{
 		uid: "cf352c8b",

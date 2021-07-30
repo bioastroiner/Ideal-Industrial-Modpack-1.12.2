@@ -1,0 +1,73 @@
+{
+	title: "{tfg.quests.steam.bender.title}",
+	x: -10.0d,
+	y: -4.0d,
+	description: "{tfg.quests.steam.bender.subtitle}",
+	text: [
+		"{tfg.quests.steam.bender.description}"
+	],
+	dependencies: [
+		"e9377e25"
+	],
+	tasks: [{
+		uid: "a5bc0ea8",
+		type: "item",
+		title: "{tfg.quests.steam.bender.largebender}",
+		items: [{
+			id: "gtadditions:ga_meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "807105ba",
+		type: "item",
+		title: "{tfg.quests.steam.bender.smallbender}",
+		items: [{
+			id: "gtadditions:ga_meta_tool",
+			Damage: 1s,
+			tag: {
+				GT.ToolStats: {
+					Material: "darmstadtium"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7be02b75",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_meta_item 1 95"
+		}],
+		count: 4L
+	},
+	{
+		uid: "01823982",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2208"
+		}]
+	}],
+	rewards: [{
+		uid: "5fbc1ea3",
+		type: "item",
+		item: {
+			id: "gtadditions:ga_meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "steel"
+				}
+			}
+		}
+	},
+	{
+		uid: "5a8cf910",
+		type: "item",
+		item: "gregtech:machine 1 2196"
+	}]
+}

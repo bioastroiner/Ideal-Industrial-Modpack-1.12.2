@@ -1,7 +1,7 @@
 {
 	title: "{tfg.quests.steam.electricity.title}",
-	x: -3.0d,
-	y: -9.0d,
+	x: -10.5d,
+	y: -10.0d,
 	shape: "octagon",
 	description: "{tfg.quests.steam.electricity.subtitle}",
 	dependencies: [

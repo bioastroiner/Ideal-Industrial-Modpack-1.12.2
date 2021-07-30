@@ -1,0 +1,36 @@
+{
+	title: "{tfg.quests.steam.circuitbase.title}",
+	x: 1.0d,
+	y: -9.0d,
+	description: "{tfg.quests.steam.circuitbase.subtitle}",
+	text: [
+		"{tfg.quests.steam.circuitbase.description}"
+	],
+	dependencies: [
+		"1546fde2",
+		"7026aa9d"
+	],
+	tasks: [{
+		uid: "cbbcf168",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 18"
+		}],
+		count: 16L
+	},
+	{
+		uid: "1b642b9b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_2 1 32443"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "c1c2c293",
+		type: "item",
+		item: "gregtech:cable 1 87",
+		count: 4,
+		random_bonus: 4
+	}]
+}

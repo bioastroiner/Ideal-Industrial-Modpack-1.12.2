@@ -1,6 +1,11 @@
 {
-	x: -6.0d,
-	y: 2.0d,
+	title: "{tfg.quests.steam.ipbf.title}",
+	x: -6.5d,
+	y: 1.5d,
+	description: "{tfg.quests.steam.ipbf.title}",
+	text: [
+		"{tfg.quests.steam.ipbf.title}"
+	],
 	dependencies: [
 		"13584144"
 	],

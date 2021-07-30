@@ -1,9 +1,13 @@
 {
-	x: 0.0d,
-	y: -1.5d,
+	title: "{tfg.quests.steam.bronzemacerator.subtitle}",
+	x: 2.0d,
+	y: -2.0d,
 	description: "{tfg.quests.steam.bronzemacerator.subtitle}",
+	text: [
+		"{tfg.quests.steam.bronzemacerator.subtitle}"
+	],
 	dependencies: [
-		"278e5d30"
+		"5347bf68"
 	],
 	tasks: [{
 		uid: "ad53dfba",

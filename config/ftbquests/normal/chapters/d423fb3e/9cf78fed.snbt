@@ -1,0 +1,40 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	dependencies: [
+		"278e5d30"
+	],
+	tasks: [{
+		uid: "2768b7d8",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "136f779c",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 11"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7bf052dc",
+		type: "item",
+		item: "minecraft:yellow_flower",
+		count: 8
+	},
+	{
+		uid: "1208118c",
+		type: "item",
+		item: "minecraft:double_plant 1 4",
+		count: 4
+	},
+	{
+		uid: "0ca98b58",
+		type: "item",
+		item: "gregtech:meta_item_1 1 32458"
+	}]
+}

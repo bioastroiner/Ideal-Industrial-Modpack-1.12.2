@@ -1,0 +1,53 @@
+{
+	title: "{tfg.quests.primitive.backpack.title}",
+	x: -14.5d,
+	y: 5.0d,
+	description: "{tfg.quests.primitive.backpack.subtitle}",
+	text: [
+		"{tfg.quests.primitive.backpack.description}"
+	],
+	dependencies: [
+		"dd26cc04"
+	],
+	tasks: [{
+		uid: "e83b381b",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:backpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6c8b0fc4",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:blank_upgrade"
+		}]
+	},
+	{
+		uid: "541fbc14",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:upgrade"
+		}]
+	},
+	{
+		uid: "823a4614",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:upgrade 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "bfab4160",
+		type: "choice",
+		table: 2
+	},
+	{
+		uid: "60a5e7b0",
+		type: "item",
+		item: "gregtech:machine 1 2207",
+		count: 2
+	}]
+}

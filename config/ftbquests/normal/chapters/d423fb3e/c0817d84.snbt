@@ -1,15 +1,28 @@
 {
-	x: 1.0d,
-	y: 1.5d,
+	x: 3.0d,
+	y: -2.0d,
 	description: "{tfg.quests.steam.platemold.subtitle}",
+	text: [
+		"{tfg.quests.steam.platemold.description}"
+	],
+	hide_dependency_lines: true,
 	dependencies: [
-		"badc22e0"
+		"badc22e0",
+		"e6318f88",
+		"387e2c43"
 	],
 	tasks: [{
 		uid: "1de188e5",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 32301"
+		}]
+	},
+	{
+		uid: "bdf73231",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32307"
 		}]
 	}]
 }

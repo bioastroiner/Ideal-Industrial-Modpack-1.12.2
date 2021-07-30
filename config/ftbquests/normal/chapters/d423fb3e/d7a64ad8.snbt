@@ -1,0 +1,42 @@
+{
+	title: "{tfg.quests.steam.analyzatorblock.title}",
+	x: -11.0d,
+	y: 3.5d,
+	description: "{tfg.quests.steam.analyzatorblock.subtitle}",
+	text: [
+		"{tfg.quests.steam.analyzatorblock.description}"
+	],
+	dependencies: [
+		"3b016709",
+		"1fc55c60",
+		"154020bf"
+	],
+	tasks: [{
+		uid: "4f986d2b",
+		type: "item",
+		items: [{
+			item: "forestry:analyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "6250d527",
+		type: "item",
+		item: {
+			id: "forestry:can",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "for.honey",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "c5195052",
+		type: "item",
+		item: "forestry:bee_combs",
+		count: 24
+	}]
+}

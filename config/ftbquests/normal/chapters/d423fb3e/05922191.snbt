@@ -1,9 +1,10 @@
 {
-	title: "Mobile Chest",
-	x: -4.5d,
-	y: 3.5d,
+	title: "{tfg.quests.steam.crate.title}",
+	x: -7.5d,
+	y: 3.0d,
+	description: "{tfg.quests.steam.crate.subtitle}",
 	text: [
-		""
+		"{tfg.quests.steam.crate.description}"
 	],
 	dependencies: [
 		"3438de2c"

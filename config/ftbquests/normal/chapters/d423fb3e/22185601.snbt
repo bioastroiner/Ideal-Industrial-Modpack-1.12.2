@@ -1,6 +1,6 @@
 {
-	x: -9.0d,
-	y: -11.0d,
+	x: -7.0d,
+	y: -14.0d,
 	description: "{tfg.quests.steam.bigboiler.subtitle}",
 	dependencies: [
 		"f04e0193"
@@ -13,5 +13,50 @@
 			item: "gregtech:machine 1 521"
 		}],
 		ignore_nbt: 1b
+	},
+	{
+		uid: "7d8aeb70",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing"
+		}],
+		count: 23L
+	},
+	{
+		uid: "b787989d",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_firebox_casing"
+		}],
+		count: 7L
+	},
+	{
+		uid: "fefd98c4",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "a5afba3a",
+		type: "item",
+		item: "minecraft:coal",
+		count: 64
+	},
+	{
+		uid: "b5b218c9",
+		type: "item",
+		item: {
+			id: "forestry:capsule",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "creosote",
+					Amount: 1000
+				}
+			}
+		},
+		count: 32
 	}]
 }

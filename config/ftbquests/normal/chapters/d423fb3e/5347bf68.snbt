@@ -12,5 +12,10 @@
 		items: [{
 			item: "gregtech:machine_casing 1 10"
 		}]
+	}],
+	rewards: [{
+		uid: "85bc1868",
+		type: "item",
+		item: "minecraft:piston"
 	}]
 }

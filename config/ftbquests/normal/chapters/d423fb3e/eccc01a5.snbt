@@ -1,6 +1,7 @@
 {
 	x: -8.0d,
 	y: -4.0d,
+	shape: "circle",
 	description: "{tfg.quests.steam.steelcasing.subtitle}",
 	dependencies: [
 		"e6318f88"

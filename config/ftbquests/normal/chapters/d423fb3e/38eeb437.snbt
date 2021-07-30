@@ -1,0 +1,53 @@
+{
+	icon: "rftools:machine_frame",
+	x: -13.0d,
+	y: -12.0d,
+	shape: "pentagon",
+	dependencies: [
+		"f4cc4c3d",
+		"81a168d6"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0cc693cf",
+		type: "item",
+		items: [{
+			item: "rftools:machine_frame"
+		}]
+	},
+	{
+		uid: "5d7fd85f",
+		type: "item",
+		items: [{
+			item: "gregtech:cable 1 18"
+		}],
+		count: 2L
+	},
+	{
+		uid: "676e6785",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12026"
+		}]
+	},
+	{
+		uid: "14308267",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12197"
+		}],
+		count: 2L
+	},
+	{
+		uid: "b78af7bd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "bb8212e0",
+		type: "item",
+		item: "rftools:smartwrench"
+	}]
+}

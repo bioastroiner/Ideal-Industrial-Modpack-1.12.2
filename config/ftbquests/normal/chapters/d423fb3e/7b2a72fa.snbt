@@ -1,9 +1,10 @@
 {
-	title: "String Weavery",
+	title: "{tfg.quests.primitive.string.title}",
 	x: -13.0d,
 	y: 2.0d,
+	description: "{tfg.quests.primitive.string.subtitle}",
 	text: [
-		""
+		"{tfg.quests.primitive.string.description}"
 	],
 	dependencies: [
 		"c21c4d2a"
@@ -12,7 +13,18 @@
 		uid: "764d651e",
 		type: "item",
 		items: [{
-			item: "minecraft:string"
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any string"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "string"
+				}
+			}
 		}],
 		count: 16L
 	}],

@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	description: "{tfg.quests.steam.solar.subtitle}",
+	text: [
+		"{tfg.quests.steam.solar.description}"
+	],
+	dependencies: [
+		"1896908a",
+		"505c5aff"
+	],
+	tasks: [{
+		uid: "b3c5878d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3"
+		}]
+	}]
+}

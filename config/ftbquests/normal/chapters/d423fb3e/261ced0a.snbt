@@ -1,0 +1,34 @@
+{
+	title: "{tfg.quests.primitive.yogurtrepro.title}",
+	x: -14.5d,
+	y: 0.5d,
+	description: "{tfg.quests.primitive.yogurtrepro.subtitle}",
+	text: [
+		"{tfg.quests.primitive.yogurtrepro.description}"
+	],
+	dependencies: [
+		"a85d99d5"
+	],
+	tasks: [{
+		uid: "99f06cf5",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d2f4a9b7",
+		type: "item",
+		items: [{
+			item: "harvestcraft:plainyogurtitem"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "be40bd4e",
+		type: "item",
+		item: "harvestcraft:pavlovaitem",
+		count: 2
+	}]
+}

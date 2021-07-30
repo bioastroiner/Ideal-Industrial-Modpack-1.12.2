@@ -1,0 +1,41 @@
+{
+	title: "{tfg.quests.primitive.enderbackpack.title}",
+	x: -16.0d,
+	y: 5.0d,
+	description: "{tfg.quests.primitive.enderbackpack.subtitle}",
+	text: [
+		"{tfg.quests.primitive.enderbackpack.description}"
+	],
+	dependencies: [
+		"b4e489b2"
+	],
+	tasks: [{
+		uid: "56e8dcbf",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:ender_backpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2a2c0bbf",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:upgrade 1 3"
+		}]
+	},
+	{
+		uid: "3a45953c",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:upgrade 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "f778f067",
+		type: "item",
+		item: "gregtech:machine 1 803",
+		count: 2
+	}]
+}

@@ -1,0 +1,62 @@
+{
+	title: "Dyes",
+	icon: "gtadditions:ga_meta_item 1 32578",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:dye 1 5"
+	},
+	{
+		item: "minecraft:dye 1 6"
+	},
+	{
+		item: "minecraft:dye 1 7"
+	},
+	{
+		item: "minecraft:dye 1 8"
+	},
+	{
+		item: "minecraft:dye 1 9"
+	},
+	{
+		item: "minecraft:dye 1 10"
+	},
+	{
+		item: "minecraft:dye 1 12"
+	},
+	{
+		item: "minecraft:dye 1 13"
+	},
+	{
+		item: "minecraft:dye 1 14"
+	},
+	{
+		item: "extrabees:misc 1 25"
+	},
+	{
+		item: "extrabees:misc 1 24"
+	},
+	{
+		item: "extrabees:misc 1 19"
+	},
+	{
+		item: "extrabees:misc 1 20"
+	},
+	{
+		item: "extrabees:misc 1 21"
+	},
+	{
+		item: "extrabees:misc 1 22"
+	},
+	{
+		item: "extrabees:misc 1 23"
+	}],
+	loot_crate: {
+		string_id: "dyes",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}
