@@ -1,0 +1,53 @@
+{
+	title: "&eNetheria",
+	icon: "minecraft:nether_brick",
+	x: -7.5d,
+	y: 3.5d,
+	description: "Be aware of Ghasts!! and juggernuts...",
+	text: [
+		""
+	],
+	dependencies: [
+		"901cdf48"
+	],
+	tasks: [{
+		uid: "2afc4be8",
+		type: "dimension",
+		dim: -1
+	},
+	{
+		uid: "5f47788e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2065"
+		}],
+		count: 32L
+	},
+	{
+		uid: "4bf2542b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_nether_quartz_0 1 6"
+		}],
+		count: 16L
+	},
+	{
+		uid: "981b491e",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "db126ab3",
+		type: "item",
+		item: "harvestcraft:netherwingsitem",
+		count: 4
+	},
+	{
+		uid: "cf491954",
+		type: "item",
+		item: "netherex:obsidian_boat"
+	}]
+}

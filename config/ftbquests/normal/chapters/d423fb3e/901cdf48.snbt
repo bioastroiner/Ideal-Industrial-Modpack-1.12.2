@@ -1,0 +1,21 @@
+{
+	title: "&dFlint & Steel",
+	x: -7.5d,
+	y: 2.0d,
+	description: "Yes It needs Steel... Finally",
+	text: [
+		"Now you can go to the Nether, but a suprise awaits you..."
+	],
+	dependencies: [
+		"13584144"
+	],
+	tasks: [{
+		uid: "9999dd34",
+		type: "item",
+		items: [{
+			item: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "Plates",
+	x: -11.5d,
+	y: -4.0d,
+	dependencies: [
+		"387e2c43"
+	],
+	tasks: [{
+		uid: "d2f4f949",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 12033"
+		}],
+		count: 4L
+	}]
+}

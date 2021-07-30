@@ -1,0 +1,37 @@
+{
+	title: "String Weavery",
+	x: -13.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c21c4d2a"
+	],
+	tasks: [{
+		uid: "764d651e",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "da984c81",
+		type: "item",
+		item: "harvestcraft:flaxseeditem",
+		count: 8
+	},
+	{
+		uid: "3dd27518",
+		type: "item",
+		item: "immersiveengineering:seed",
+		count: 8
+	},
+	{
+		uid: "8f9e16ae",
+		type: "item",
+		item: "harvestcraft:cottonseeditem",
+		count: 8
+	}]
+}

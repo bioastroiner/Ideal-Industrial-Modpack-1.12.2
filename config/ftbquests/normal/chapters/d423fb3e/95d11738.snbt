@@ -1,0 +1,23 @@
+{
+	title: "Brotherhood of Steel!!",
+	icon: "immersiveengineering:sheetmetal 1 8",
+	x: -6.0d,
+	y: 3.5d,
+	shape: "pentagon",
+	description: "Now with an Indestrial Line of Steel Production, Consieder this challenge!",
+	text: [
+		"This is not a lot of steel Anyways! you will burn through steel in no time very soon... so Get Busy"
+	],
+	dependencies: [
+		"58dc8197"
+	],
+	tasks: [{
+		uid: "c6dda299",
+		type: "item",
+		title: "A ton of steel",
+		items: [{
+			item: "gregtech:meta_item_1 1 10184"
+		}],
+		count: 64L
+	}]
+}

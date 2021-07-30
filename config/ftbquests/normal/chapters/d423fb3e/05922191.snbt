@@ -1,0 +1,30 @@
+{
+	title: "Mobile Chest",
+	x: -4.5d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3438de2c"
+	],
+	tasks: [{
+		uid: "700cbf0b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0"
+		}]
+	}],
+	rewards: [{
+		uid: "6f54973f",
+		type: "item",
+		item: "immersiveengineering:wooden_device0"
+	},
+	{
+		uid: "134f56c4",
+		type: "item",
+		title: "Ocean Cleaning Squad!",
+		item: "minecraft:sponge",
+		count: 8
+	}]
+}

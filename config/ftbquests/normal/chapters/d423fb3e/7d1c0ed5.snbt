@@ -1,0 +1,22 @@
+{
+	title: "Dosen't... Explode!",
+	x: -4.5d,
+	y: 5.0d,
+	dependencies: [
+		"05922191"
+	],
+	tasks: [{
+		uid: "8bff0193",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "a19024d5",
+		type: "item",
+		item: "harvestcraft:hamandcheesesandwichitem",
+		count: 2,
+		random_bonus: 3
+	}]
+}

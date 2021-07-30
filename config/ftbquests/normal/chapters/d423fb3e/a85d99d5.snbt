@@ -1,0 +1,66 @@
+{
+	title: "Hunting",
+	icon: {
+		id: "gregtech:meta_tool",
+		Damage: 18s,
+		tag: {
+			GT.ToolStats: {
+				Material: "darmstadtium"
+			},
+			ench: [{
+				id: 21s,
+				lvl: 3s
+			}]
+		}
+	},
+	x: -13.0d,
+	y: 0.5d,
+	dependencies: [
+		"c21c4d2a"
+	],
+	tasks: [{
+		uid: "a48806f4",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}],
+		count: 8L
+	},
+	{
+		uid: "5488c2f5",
+		type: "item",
+		items: [{
+			item: "minecraft:wool"
+		}],
+		count: 8L
+	},
+	{
+		uid: "7efdd689",
+		type: "item",
+		items: [{
+			item: "minecraft:feather"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "45128466",
+		type: "item",
+		item: {
+			id: "gregtech:meta_tool",
+			Damage: 18s,
+			tag: {
+				GT.ToolStats: {
+					Material: "wrought_iron"
+				},
+				ench: [{
+					id: 21s,
+					lvl: 3s
+				}],
+				display: {
+					Name: "Farmer's Best Friend"
+				},
+				RepairCost: 0
+			}
+		}
+	}]
+}

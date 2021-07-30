@@ -1,0 +1,16 @@
+{
+	title: "Black Wool Carpetry",
+	x: -11.5d,
+	y: 0.5d,
+	dependencies: [
+		"a85d99d5"
+	],
+	tasks: [{
+		uid: "cb70c96a",
+		type: "item",
+		items: [{
+			item: "minecraft:wool 1 15"
+		}],
+		count: 32L
+	}]
+}

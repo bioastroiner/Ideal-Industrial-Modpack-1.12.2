@@ -1,0 +1,34 @@
+{
+	x: -4.5d,
+	y: 2.0d,
+	dependencies: [
+		"57208fec"
+	],
+	tasks: [{
+		uid: "1278f2f6",
+		type: "item",
+		title: "Treat It Well...",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}],
+		count: 64L
+	},
+	{
+		uid: "f5c66456",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "creosote",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d46f0413",
+		type: "item",
+		item: "immersiveengineering:tool 1 3"
+	}]
+}
