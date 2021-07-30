@@ -116,7 +116,7 @@
 	rewards: [{
 		uid: "d514fa8c",
 		type: "item",
-		title: "Where this came from?",
+		title: "Where did this came from?",
 		item: {
 			id: "gregtech:meta_tool",
 			Damage: 1s,
@@ -129,5 +129,11 @@
 				}
 			}
 		}
+	},
+	{
+		uid: "46d3b8ec",
+		type: "item",
+		title: "You Have Mined a lot, A Toast!!!",
+		item: "harvestcraft:minerstewitem"
 	}]
 }

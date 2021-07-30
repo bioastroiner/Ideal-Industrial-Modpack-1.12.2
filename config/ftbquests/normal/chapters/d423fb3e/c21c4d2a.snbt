@@ -1,8 +1,38 @@
 {
 	title: "{tfg.quests.primitive.primitiveTools.title}",
+	icon: {
+		id: "immersiveengineering:toolbox",
+		ForgeCaps: {
+			Parent: {
+				Items: [],
+				Size: 1
+			}
+		}
+	},
 	x: -13.0d,
 	y: -1.0d,
 	description: "{tfg.quests.primitive.primitiveTools.subtitle}",
+	text: [
+		"&4As you are Aware, &cNo more Wooden and Stone tools!!&r",
+		"In Addition chopping down trees, expecially the Dynamic ones, take more time single handedly.",
+		"to get started instead of paracticing kick-boxing with the god damn trees, try doing that to the grou- sorry Gravel!",
+		"Gravel has a moderate chance to be dropped as Flint, to increase the chance you can use a Hammer to get a 100% chance turning Gravel into Flint.",
+		"To get Sticks you also can pounch Dyanmic Tree Leaves, To get Axes however you need to get the crafting table alredy,",
+		"but the Flint Tools are really good compared to their Inferior Stone and Wooden Cousins!",
+		"",
+		"Axes are especially good since they can Vein Mine automatically any type of tree (infact ANY kind of Logs), they are amazing for farming rubber as well.",
+		"",
+		"Swords and Knifes made out of Flint have a default Enchantment on Fire.",
+		"this is a common scheme in GT witch some Materials provide certain type of tools with Special Enchantments. like vinteum and Rose gold...",
+		"Knifes almost act like a short sword except they are used in sereval crafting recipes as well as some epecial one.",
+		"using Knifes or Swords on a Tree will instant Mine the leaves and increase the chance of drops expecially Apples and Saplings (on some trees).",
+		"",
+		"They are more Special Tools that will do uniqe thing to Trees, that will be discussed in an other quest.",
+		"",
+		"Rest of the tools aren't especial, they can mine up almost any ore except for Diorite,Andesite and almost any non Stone Ores (with only SandStone & Gravel exception)",
+		"",
+		"Did we told you that GT is a tech mod? then i really can't explain how this Blade is a tech sword :p"
+	],
 	dependencies: [
 		"e24091b1"
 	],
@@ -82,8 +112,30 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "708845cf",
-		type: "random",
-		table: 1
+		uid: "83c958fc",
+		type: "item",
+		title: "I swear this is No Magic!",
+		icon: "netherex:withered_amedian_sword",
+		auto: "enabled",
+		item: {
+			id: "gregtech:meta_tool",
+			tag: {
+				GT.ToolStats: {
+					Material: "vinteum"
+				},
+				ench: [{
+					id: 16s,
+					lvl: 2s
+				},
+				{
+					id: 21s,
+					lvl: 2s
+				}],
+				RepairCost: 1,
+				display: {
+					Name: "Tech Sword"
+				}
+			}
+		}
 	}]
 }

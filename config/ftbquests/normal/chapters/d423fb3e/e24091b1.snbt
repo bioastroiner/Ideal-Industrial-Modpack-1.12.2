@@ -1,12 +1,61 @@
 {
-	title: "{tfg.quests.primitive.start.title}",
+	title: "&4&l{tfg.quests.primitive.start.title}",
+	icon: "gregtech:meta_item_1 1 32009",
 	x: -17.0d,
 	y: -1.0d,
-	description: "{tfg.quests.primitive.start.subtitle}",
+	description: "&3The Beningin The Beningingin! and Lore?",
+	text: [
+		"&7Doge be with you",
+		"",
+		"Welcome to Ideal Industrial, a Primally Tech Oriented Focoused around Gregtech with Its Great Addon \"Greggicality\"!&r",
+		"",
+		"&6&l**A little bit of History!**&r",
+		"&bWhat is Greggicality? You can Call it Spiritual Successor to Shadows of Greg witch is Successor to Greggic Additions &7(Hence the name),&r",
+		"",
+		"&6&lGreggic Addition was an Addon made for Gregtech Community Eddition.&r",
+		"",
+		"&7As you may be Aware this Port of Gregtech lacks many Features from Gregtech 5u, with the main progression system of the Mod is not even Complete!&r",
+		"",
+		"&7GTCE lacks many features and options, many Blocks Muchines, even some Mechanics...",
+		"",
+		"&6But&7 also has interesting features such as a &2great Fluid handling&7, more &2QoL&7 Options that make the game more pleasable, &a No more Stacks uopn Stacks of Fluid cells, No more Rain causing Explosions (witch i like it tbh), and ...&r",
+		"",
+		"&6What gregaddition did&3 was to bring back the old features, completing the base game, adding more tiers to machines even porting some features from GT6! such as Drums and Cluster Bendingjust to name a few...",
+		"",
+		"&6Shadow of Greg&3 was a &2Direct Fork&r and maintance version of the mod, nothing too different tbh.",
+		"",
+		"&6Greggicality started as a fork of shadow of greg&r, but more ambitious, way more ambitious. ",
+		"&bGreggicality Not only aimes to do what Gregic Addition did, Greggicality tried to do more things to the core game, doing some tweaks all decided by cummunity!&r",
+		"",
+		"&7Greggicality also were not satisfied with, well basically Anything! deciding to port not only almost all the gt5's features but the great &6GT5's Addons&7 such as &2GT++&7 ,&2Bartworks&7 and &2TecTec&7 as well!! Since GTCE is fundementally different from GT5u nowdays, Greggicality decide to do lot more new things,and more exciting things!&r",
+		"",
+		"&cThe mod is still at Beta, so many new features are getting added daily, features never seen before in Gregtech! or even minecraft...&r",
+		"",
+		"&6&l**So WELCOME!**&r",
+		"",
+		"&eThis Pack aims to Bring to you &2as much as &lGreggicality&e and its Addons (yes this Addon has Addons like &2GT food options&e...) can offer, with Quest that guides you through the Pack interdoucing Features and Gameplay mechanics Plus many Tweaks, &2Greggifying Everything EveryWhere&r,.",
+		"",
+		"&eThis Pack also cationlly uses other tech mods to keep the &2Gregtech Style intact&e, one of the Greggicality's Porpuse is that, it also adds features to make Gregtech more dependant from other tech mods! or make them more greggy if that make senes... :)"
+	],
 	size: 3.0d,
 	tasks: [{
 		uid: "89c09765",
 		type: "checkmark",
 		title: "{tfg.quests.primitive.start.tasks.clickMe}"
+	}],
+	rewards: [{
+		uid: "27638c9e",
+		type: "item",
+		title: "May This Brings you Luck!",
+		auto: "enabled",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 32009s,
+			tag: {
+				display: {
+					Name: "Lucky Coin"
+				}
+			}
+		}
 	}]
 }
