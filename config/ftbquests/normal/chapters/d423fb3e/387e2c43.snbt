@@ -1,21 +1,11 @@
 {
-	title: "Ore Doubling Devided by 2!",
+	title: "{tfg.quest.primitive.hammer.title}",
 	icon: "extraplanets:tools",
 	x: -13.0d,
 	y: -4.0d,
-	description: "Use your hammer to crush ores, so you would get a bit more resources",
+	description: "{tfg.quest.primitive.hammer.subtitle}",
 	text: [
-		"§3What if someone told you bring me an stack of flint! what would you do? craft a ton of mortars and grind your gravel into oblivion?",
-		"Well you can be a little bit smarter and use your Hammer to grind up any gravel you see instantlly turning it into Flint! Valla§r",
-		"",
-		"§6**Early Game OreProcessing**§r",
-		"Beside crafting tasks you can also use your hammer to grind up ores and get a little bit more resources from them, ore doubling? you name it but it's more like a 1.5x infact little bit less than that.",
-		"§2Hammering down Pure ores such as straight Iron or Copper ore would yield in their dust§r witch upon cleaning in a cauldrin (witch we talk about later) can be directlly used to make Bronze for example!",
-		"",
-		"§6**Easier Early Game Fuel Sources**§r",
-		" Some Players rather to Directlly Mine their Lignite Coals with Hammer in the first place and use §2Lignite Coal Dirty Dust as a very good fuel (6 items at a time)§r source in furnaces.",
-		"§7I wouldn't advise doing the same thing with Coal, since you can't turn the dust into Coal Coke, and till EV you can't get Coal from Dust my Friend! ",
-		"§(Sifter are great to egt coal and gems!)§r"
+		"{tfg.quest.primitive.hammer.description}"
 	],
 	dependencies: [
 		"c21c4d2a"

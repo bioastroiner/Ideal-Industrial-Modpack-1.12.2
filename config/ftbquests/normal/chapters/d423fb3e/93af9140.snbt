@@ -1,7 +1,11 @@
 {
-	title: "Plates",
+	title: "{tfg.quest.primitive.plates.title}",
 	x: -11.5d,
 	y: -4.0d,
+	description: "{tfg.quest.primitive.plates.subtitle}",
+	text: [
+		"{tfg.quest.primitive.plates.description}"
+	],
 	dependencies: [
 		"387e2c43"
 	],

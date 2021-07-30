@@ -1,5 +1,5 @@
 {
-	title: "Hunting",
+	title: "{tfg.quest.primitive.Hunting.title}",
 	icon: {
 		id: "gregtech:meta_tool",
 		Damage: 18s,
@@ -15,6 +15,10 @@
 	},
 	x: -13.0d,
 	y: 0.5d,
+	description: "{tfg.quest.primitive.Hunting.subtitle}",
+	text: [
+		"{tfg.quest.primitive.Hunting.description}"
+	],
 	dependencies: [
 		"c21c4d2a"
 	],
