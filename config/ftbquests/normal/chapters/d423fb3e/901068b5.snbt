@@ -1,0 +1,39 @@
+{
+	title: "How to Read the Quest Book Better!",
+	x: -17.0d,
+	y: 2.0d,
+	description: "Helping You Getting your information Faster",
+	text: [
+		"§3As you can see the Quest Descriptions are color coded in different ways, the logic for Each Color is as follows:§2",
+		"",
+		"§e§kC§3 Cyan §r:",
+		"is used to deliver a §2Quick Summury§r of what the quest is about!",
+		"",
+		"§e§kG§2 Green §r: ",
+		"is used to &2Highligh Important Parts&r. so you can skip everything else! in addition you can also skeem the green parts.",
+		"",
+		"§e§kO§d Pink §r",
+		"is used in Text witch contains §2Short Gameplay Tips§r. like KeyBindings or any other types of short Tips. It really stands out so you won't miss it!",
+		"§o§7example:",
+		"§dYou can Press [Alt + F4] to enter Cheat Mode!§r",
+		"",
+		"§7§o They are more color codings witch serve mostlly at asthetics or have limited uses or very obvious ones witch are needless to say! also I try to follow these rules!"
+	],
+	dependencies: [
+		"e24091b1"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c09594a8",
+		type: "checkmark",
+		title: "How to read my texts? :<",
+		icon: "rftools:text_module"
+	}],
+	rewards: [{
+		uid: "2938778f",
+		type: "item",
+		title: "It's Good for your Eyes!!",
+		item: "harvestcraft:carrotsoupitem",
+		count: 3
+	}]
+}
