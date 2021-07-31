@@ -1,0 +1,25 @@
+{
+	x: -14.5d,
+	y: -9.0d,
+	dependencies: [
+		"f4cc4c3d"
+	],
+	tasks: [{
+		uid: "129a7d04",
+		type: "item",
+		items: [{
+			item: "forestry:fabricator"
+		}]
+	}],
+	rewards: [{
+		uid: "139d5df9",
+		type: "item",
+		item: "forestry:tree_chest"
+	},
+	{
+		uid: "fadc4ac0",
+		type: "item",
+		item: "minecraft:glass",
+		count: 16
+	}]
+}

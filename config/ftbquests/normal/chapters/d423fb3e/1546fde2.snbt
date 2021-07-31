@@ -7,7 +7,8 @@
 		"{tfg.quests.steam.woodplank.description}"
 	],
 	dependencies: [
-		"2d444c7e"
+		"2d444c7e",
+		"ec5d51cf"
 	],
 	tasks: [{
 		uid: "8c5959fb",

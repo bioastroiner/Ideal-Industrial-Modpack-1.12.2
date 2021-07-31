@@ -8,6 +8,7 @@
 		"{tfg.quests.steam.basiccircuit.description}"
 	],
 	dependencies: [
+		"d1b3af7b",
 		"b5f798b3",
 		"e6969d32",
 		"d6ed697b",

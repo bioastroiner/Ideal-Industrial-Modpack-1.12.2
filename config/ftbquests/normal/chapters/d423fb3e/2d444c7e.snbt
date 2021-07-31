@@ -2,6 +2,7 @@
 	title: "{tfg.quests.steam.bronzemacerator.subtitle}",
 	x: 2.0d,
 	y: -2.0d,
+	shape: "pentagon",
 	description: "{tfg.quests.steam.bronzemacerator.subtitle}",
 	text: [
 		"{tfg.quests.steam.bronzemacerator.subtitle}"
@@ -9,6 +10,7 @@
 	dependencies: [
 		"5347bf68"
 	],
+	size: 1.3d,
 	tasks: [{
 		uid: "ad53dfba",
 		type: "item",

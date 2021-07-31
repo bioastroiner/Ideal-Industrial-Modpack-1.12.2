@@ -1,5 +1,5 @@
 {
-	x: -4.0d,
+	x: 4.0d,
 	y: -12.0d,
 	description: "{tfg.quests.steam.blacksteelingot2.subtitle}",
 	hide_dependency_lines: true,

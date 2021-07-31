@@ -1,6 +1,6 @@
 {
-	x: -4.0d,
-	y: 3.5d,
+	x: -4.2d,
+	y: 3.5999999999999996d,
 	shape: "gear",
 	description: "{tfg.quests.steam.flintasteel.subtitle}",
 	text: [

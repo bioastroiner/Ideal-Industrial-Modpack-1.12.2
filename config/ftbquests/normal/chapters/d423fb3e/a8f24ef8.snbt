@@ -1,0 +1,51 @@
+{
+	x: -14.5d,
+	y: -4.0d,
+	dependencies: [
+		"c21c4d2a"
+	],
+	tasks: [{
+		uid: "89568343",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}],
+		count: 32L
+	},
+	{
+		uid: "71c46825",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}],
+		count: 16L
+	},
+	{
+		uid: "94650cff",
+		type: "item",
+		items: [{
+			item: "gregtech:sapling"
+		}],
+		count: 32L
+	},
+	{
+		uid: "d693c5c2",
+		type: "item",
+		items: [{
+			item: "minecraft:reeds"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "3fd7851e",
+		type: "item",
+		item: "harvestcraft:shadedgarden",
+		count: 16
+	},
+	{
+		uid: "3c0077a4",
+		type: "item",
+		item: "forestry:fertilizer_compound",
+		count: 64
+	}]
+}

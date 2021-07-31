@@ -1,0 +1,37 @@
+{
+	x: -14.5d,
+	y: -2.5d,
+	dependencies: [
+		"a8f24ef8"
+	],
+	tasks: [{
+		uid: "888f3340",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}],
+		count: 32L
+	},
+	{
+		uid: "56653762",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_slab"
+		}],
+		count: 6L
+	},
+	{
+		uid: "c9cc7bcc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 2325"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c1de6b03",
+		type: "item",
+		item: "minecraft:bookshelf",
+		count: 3
+	}]
+}

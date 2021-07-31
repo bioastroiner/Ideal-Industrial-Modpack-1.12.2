@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: -5.5d,
+	dependencies: [
+		"e0a981bd"
+	],
+	tasks: [{
+		uid: "f13b1db0",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "bce88627",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 8
+	},
+	{
+		uid: "0ea1f6d1",
+		type: "item",
+		item: "enderio:item_material 1 22",
+		count: 16
+	}]
+}

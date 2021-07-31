@@ -66,5 +66,17 @@
 			}
 		}],
 		count: 16L
+	}],
+	rewards: [{
+		uid: "01f7938a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2112",
+		count: 8
+	},
+	{
+		uid: "ce8123e6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2091",
+		count: 8
 	}]
 }

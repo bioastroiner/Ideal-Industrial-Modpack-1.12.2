@@ -1,7 +1,7 @@
 {
 	title: "{tfg.quests.steam.easierplates.title}",
-	x: -0.8d,
-	y: -5.6d,
+	x: -1.6d,
+	y: -4.8d,
 	shape: "gear",
 	description: "{tfg.quests.steam.easierplates.subtitle}",
 	text: [

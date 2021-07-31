@@ -17,5 +17,11 @@
 			item: "gregtech:meta_item_2 1 32450"
 		}],
 		count: 4L
+	}],
+	rewards: [{
+		uid: "285f943d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 10237",
+		count: 8
 	}]
 }
